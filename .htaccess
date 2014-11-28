@@ -1,0 +1,14 @@
+# ISAPI Rewrite (global)
+
+RewriteEngine on
+RewriteBase /
+
+RewriteRule ^/?$ /de/index.php [L]
+RewriteRule ^patienten-informationen/?$ /de/patienten-informationen.php [L]
+RewriteRule ^aerzte-zugang/?$ /de/aerzte-zugang.php [L]
+RewriteRule ^anmelden/?$ /de/anmelden.php [L]
+RewriteRule ^login/?$ /de/login.php [L]
+RewriteRule ^verifizierung/?$ /de/verifizierung.php [L]
+RewriteRule ^zweitmeinung/?$ /de/zweitmeinung.php [L]
+RewriteRule ^privacy-policy/?$ /de/privacy-policy.php [L]
+RewriteRule ^impressum/?$ /de/impressum.php [L]
