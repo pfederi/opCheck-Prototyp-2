@@ -15864,6 +15864,15 @@ th.hide-for-touch {
 
   th.show-for-print {
     display: table-cell !important; } }
+.prototypnummer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid #111;
+  background: #333;
+  color: #fff;
+  padding: 0.500em; }
+
 body {
   margin-top: 70px; }
 

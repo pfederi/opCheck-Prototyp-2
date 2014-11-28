@@ -41,9 +41,12 @@
 	</script>
 	<!-- END FEEDBACK BUTTON -->
   </head>
-  <body>
+  
+  <body>	 
+
 
 	<header class="fixed">
+		<div class="prototypnummer">Prototyp 2</div>
 		<div class="row">
 			<div class="large-6 medium-6 columns">
 				<a href="/" class="logo">opCheck</a>
