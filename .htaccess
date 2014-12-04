@@ -14,5 +14,6 @@ RewriteRule ^zweitmeinung/?$ /de/zweitmeinung.php [L]
 RewriteRule ^zweitmeinung/fallnummer/?$ /de/zweitmeinung/fallnummer.php [L]
 RewriteRule ^zweitmeinung/bestellen/?$ /de/zweitmeinung/bestellen.php [L]
 
-RewriteRule ^privacy-policy/?$ /de/privacy-policy.php [L]
+RewriteRule ^faq/?$ /de/faq.php [L]
+RewriteRule ^datenschutz-richtlinien/?$ /de/datenschutz-richtlinien.php [L]
 RewriteRule ^impressum/?$ /de/impressum.php [L]
