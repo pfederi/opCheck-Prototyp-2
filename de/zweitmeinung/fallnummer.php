@@ -2,7 +2,7 @@
 
 <div class="row">
 	<div class="large-2 medium-2 small-1 columns">
-		<ul id="lstzweitmmeinung">
+		<ul id="lstZweitmeinung">
 			<li><a href="/zweitmeinung/fallnummer">Ihre Fallnummer<span>9876321-1</span></a>
 				<ul>
 					<li><a href="#">Speichern</a></li>

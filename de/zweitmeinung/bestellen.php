@@ -1,4 +1,4 @@
-<?php include("../includes/header.inc.php"); ?>
+<?php include("../../includes/header.inc.php"); ?>
 
 <div class="row margin-bottom-40">
 	<div class="large-12 columns">
@@ -7,12 +7,12 @@
 		<p>Lassen Sie sich Zeit. Sie haben jederzeit die Möglichkeit die eingegebenen Daten zu speichern. Sie können dann die Eingabe zu einem späteren Zeitpunkt wieder aufnehmen und komplettieren.</p>
 		<dl class="accordion" data-accordion="">
 		  <dd class="accordion-navigation">
-		  	<a class="firstPanel" href="#panel1b"><div class="left progress-counter"><span class="iconStep">1</span></div> Demographische Daten <span class="right checked"><img src="../images/icons/checked.svg" alt="Ausgefüllt Anzeige"></span></a> 
+		  	<a class="firstPanel" href="#panel1b"><div class="left progress-counter"><span class="iconStep">1</span></div> Demographische Daten <span class="right checked"><img src="../../images/icons/checked.svg" alt="Ausgefüllt Anzeige"></span></a> 
 		    <div id="panel1b" class="content active">
 				<div class="row">
 					<div class="large-9 columns">
 						<!--1 Demographische Daten -->
-						<?php include("../includes/formular/demographische-daten.inc.php"); ?>
+						<?php include("../../includes/formular/demographische-daten.inc.php"); ?>
 					</div>
 					<div class="large-3 columns">
 						<div class="formInfo">
@@ -30,17 +30,17 @@
 		    </div>
 		  </dd>
 		  <dd class="accordion-navigation">
-		    <a id="goTopanel2b" href="#panel2b"><div class="left progress-counter"><span class="iconStep">2</span></div> Kurzdiagnose<span class="right checked"><img src="../images/icons/checked.svg" alt="Ausgefüllt Anzeige"></a>
+		    <a id="goTopanel2b" href="#panel2b"><div class="left progress-counter"><span class="iconStep">2</span></div> Kurzdiagnose<span class="right checked"><img src="../../images/icons/checked.svg" alt="Ausgefüllt Anzeige"></a>
 		    <div id="panel2b" class="content">
 				<div class="row">
 					<div class="large-9 columns">
 						<!--2 Kurzdiagose -->
-						<?php include("../includes/formular/kurzdiagnose.inc.php"); ?>
+						<?php include("../../includes/formular/kurzdiagnose.inc.php"); ?>
 					</div>
 					<div class="large-3 columns">
 						<div class="formInfo">
 							<p>Hier ordnen Sie Ihren Fall dem richtigen Fachgebiet zu.</p> 
-							<p>Die Grundangaben helfen opCheck dabei, den richtigen Spezialisten für Ihre Zweitmeinung zu finden.<span class="right checked"><img src="../images/icons/checked.svg" alt="Ausgefüllt Anzeige"></p>						
+							<p>Die Grundangaben helfen opCheck dabei, den richtigen Spezialisten für Ihre Zweitmeinung zu finden.<span class="right checked"><img src="../../images/icons/checked.svg" alt="Ausgefüllt Anzeige"></p>						
 						</div>
 					</div>
 				</div>
@@ -53,12 +53,12 @@
 			</div>		
 		  </dd>
 		  <dd class="accordion-navigation">
-		    <a id="goTopanel3b" href="#panel3b"><div class="left progress-counter"><span class="iconStep">3</div> Befund <span class="right checked"><img src="../images/icons/checked.svg" alt="Ausgefüllt Anzeige"></a>
+		    <a id="goTopanel3b" href="#panel3b"><div class="left progress-counter"><span class="iconStep">3</div> Befund <span class="right checked"><img src="../../images/icons/checked.svg" alt="Ausgefüllt Anzeige"></a>
 		    <div id="panel3b" class="content">
 				<div class="row">
 					<div class="large-9 columns">
 						<!--3 Befund -->
-						<?php include("../includes/formular/befund.inc.php"); ?>
+						<?php include("../../includes/formular/befund.inc.php"); ?>
 					</div>
 					<div class="large-3 columns">
 						<div class="formInfo">
@@ -76,12 +76,12 @@
 			</div>
 		  </dd>
 		  <dd class="accordion-navigation">
-		    <a id="goTopanel4b" href="#panel4b"><div class="left progress-counter"><span class="iconStep">4</div> Befundbilder <span class="right checked"><img src="../images/icons/checked.svg" alt="Ausgefüllt Anzeige"></a>
+		    <a id="goTopanel4b" href="#panel4b"><div class="left progress-counter"><span class="iconStep">4</div> Befundbilder <span class="right checked"><img src="../../images/icons/checked.svg" alt="Ausgefüllt Anzeige"></a>
 		    <div id="panel4b" class="content">
 				<div class="row">
 					<div class="large-9 columns">
 						<!--4 Befundbilder -->
-						<?php include("../includes/formular/befundbilder.inc.php"); ?>
+						<?php include("../../includes/formular/befundbilder.inc.php"); ?>
 					</div>
 					<div class="large-3 columns">
 						<div class="formInfo">
@@ -98,12 +98,12 @@
 			</div>
 		  </dd>			
 		  <dd class="accordion-navigation">
-		    <a id="goTopanel5b" href="#panel5b"><div class="left progress-counter"><span class="iconStep">5</div> Zweitmeinungsarzt <span class="right checked"><img src="../images/icons/checked.svg" alt="Ausgefüllt Anzeige"></a>
+		    <a id="goTopanel5b" href="#panel5b"><div class="left progress-counter"><span class="iconStep">5</div> Zweitmeinungsarzt <span class="right checked"><img src="../../images/icons/checked.svg" alt="Ausgefüllt Anzeige"></a>
 		    <div id="panel5b" class="content">
 				<div class="row">
 					<div class="large-9 columns">
 						<!--5 zweitmeinungsarzt -->
-						<?php include("../includes/formular/zweitmeinungsarzt.inc.php"); ?>
+						<?php include("../../includes/formular/zweitmeinungsarzt.inc.php"); ?>
 					</div>
 					<div class="large-3 columns">
 						<div class="formInfo">
@@ -121,7 +121,7 @@
 				</div>
 		  </dd>
 		  <dd class="accordion-navigation contolsWrap hiddenObject hidden">
-		    <a id="goTopanel6b" href="#panel6b"><div class="left progress-counter"><span class="iconStep">6</div> Eingabe abschliessen <span class="right checked"><img src="../images/icons/checked.svg" alt="Ausgefüllt Anzeige"></a>
+		    <a id="goTopanel6b" href="#panel6b"><div class="left progress-counter"><span class="iconStep">6</div> Eingabe abschliessen <span class="right checked"><img src="../../images/icons/checked.svg" alt="Ausgefüllt Anzeige"></a>
 		    <div id="panel6b" class="content">
 				<div class="row margin-bottom-20">
 					<div class="large-9 columns">
@@ -156,4 +156,4 @@
 
 
 
-<?php include("../includes/footer.inc.php"); ?>
+<?php include("../../includes/footer.inc.php"); ?>

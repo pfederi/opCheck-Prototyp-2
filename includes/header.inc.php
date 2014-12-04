@@ -5,14 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>opCheck</title>
     <link rel="stylesheet" href="../css/app.css" />
+<!--
     <link rel="stylesheet" href="../css/layout-kate.css" />
     <link rel="stylesheet" href="../css/layout-darko.css" />
+-->
     <link rel="stylesheet" href="../css/layout.css" />
     <script src="../bower_components/modernizr/modernizr.js"></script>
     <script src="../js/hyphenator/hyphenator-loader-1.1.min.js"></script>
     <script src="../bower_components/jquery/dist/jquery.min.js"></script>
     <!-- FEEDBACK BUTTON -->
-    <script type='text/javascript'>
+    <!--
+<script type='text/javascript'>
 	var BugHerdConfig = {
     feedback: {
       tab_text: "Problem melden",
@@ -39,6 +42,7 @@
 	  s.parentNode.insertBefore(bh, s);
 	  })(document, 'script');
 	</script>
+-->
 	<!-- END FEEDBACK BUTTON -->
   </head>
   

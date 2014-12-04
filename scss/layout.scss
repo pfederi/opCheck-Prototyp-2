@@ -1,6 +1,7 @@
 @import "settings";
 @import "foundation";
 
+// START Anzeige für Prototypnummer
 .prototypnummer {
 	position: absolute;
 	top: 0;
@@ -11,36 +12,15 @@
 	color: #fff;
 }
 
+// END Anzeige für Prototypnummer
+
+// START Layoutelemente
 body
 {
 	margin-top: 70px;
 }
 
-.hyphenate {
-	text-align: left;
-	-webkit-hyphens: auto;
-	-moz-hyphens: auto;
-	hyphens: auto;
-	-ms-hyphens: auto;
-  }
-  
-.donthyphenate {
-	text-align: left;
-	-webkit-hyphens: none;
-	-moz-hyphens: none;
-	hyphens: none;
-	-ms-hyphens: none;
-}
-
-h3
-{
-	margin: 0;
-	padding: 0.500em 0 2em;
-	background: #fff;
-	text-align: center;
-}
-
-
+// Fixed Header
 .fixed {
 	position: fixed;
 	top:0;
@@ -60,6 +40,9 @@ h3
 	 }
  }
 
+// END Layoutelemente
+
+// START Header
 header
 {
 	height: 70px;
@@ -89,7 +72,85 @@ header
 		margin: 0;
 	}
 }
+// END header
 
+//START Footer Elemente
+footer
+{
+	ul {
+		float: right;
+		list-style-type: none;
+		
+		li {
+			float: left;
+			padding: 0 0.500em;
+			border-right: 1px solid #333;
+			
+			&:last-child {
+				padding: 0 0 0.500 0;
+				border: transparent;
+			}
+		}
+	}
+}
+// END Footer Elemente
+
+//START Textelemente
+
+h3
+{
+	margin: 0;
+	padding: 0.500em 0 2em;
+	background: #fff;
+	text-align: center;
+}
+
+//Hyphenator Klassen
+.hyphenate {
+	text-align: left;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+	-ms-hyphens: auto;
+  }
+  
+.donthyphenate {
+	text-align: left;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	hyphens: none;
+	-ms-hyphens: none;
+}
+//END Textelemnte
+
+//START Allgemeine inhaltliche Elemente
+.privacy-policy, .impressum {
+	h1 {
+		text-align: center;
+	}
+	
+	h2 {
+		font-size: 1.5rem;
+	}
+	
+	img {
+		position: absolute;
+		right: 40px;
+		bottom: 40px;
+		width: 30px;
+	}
+	
+	.panel {
+		p {
+			font-size: 1.5em;
+			line-height: 1.2em;
+		}
+	}
+}
+// END Allgemeine inhaltliche Elemente
+
+
+//START Home Elemente
 .surgeon
 {
 	
@@ -150,7 +211,34 @@ header
 		width: 87%;
 	}
 }
+
+// Aufklapper	
+.intro-link
+	{
+		position: absolute;
+		bottom: 0px;
+		display: block;
+		padding: 12px 0 0 0;
+		width: 100%;
+		height: 100px;
+		background-color: #fff;
+		background-image: url(/images/icons/arrow-down.svg);
+		background-position: center center;
+		background-size: 50px;
+		background-repeat: no-repeat;
+		color:#222;
+		text-align: center;
+		text-decoration:none;
+		font-weight:bold;
+		font-size: 3.6em;
+		cursor: pointer;
 	
+	&:hover
+		{
+			opacity: 0.8;
+		}
+}
+
 .ablauf
 {
 	position: relative;
@@ -183,74 +271,129 @@ header
 		}
 	}
 }
+//END Home Elemente
 
-.privacy-policy, .impressum {
-	h1 {
-		text-align: center;
-	}
+//START Step by Step
+#lstZweitmeinung {
+	width: 100%;
+	list-style-type: none;
 	
-	h2 {
-		font-size: 1.5rem;
+	li {
+		background: #333;
+		margin-bottom: 1px;
 	}
+}
+
+//START Accordion Elemente
+
+// -dj - accordion Anpassungen für opCheck
+.accordion {
+	dd {
+		border-bottom: 1px solid #ccc;
+		&:last-of-type {
+			border-bottom: 0;
+			.content {
+				background: transparent;
+				background-image: none !important; 
+			}	
+		}
+	}
+	.content {
+		padding-left: 50px !important;
+		background: transparent url('../images/design/pathLead.png') 18px 0 repeat-y !important;
+	}
+}
+
+//END Accordion Elemente
+
+//START Form Elemente
+	
+// -dj - forminfo ist für die Informationseinblendung auf der Seite, in jedem Bereich des Formulars (im Akkordeon)
+.formInfo {
+	p {
+		font-size: .875em;
+		line-height: 1.2em;
+	}
+}
+.button.expand.white {
+	background-color: white;
+	color: #0078a0;
+	text-decoration: underline;
+}
+
+//Tooltip
+.tip-top {
+	float: left;
+	margin: -0.250em 0 0 0;
 	
 	img {
-		position: absolute;
-		right: 40px;
-		bottom: 40px;
-		width: 30px;
-	}
-	
-	.panel {
-		p {
-			font-size: 1.5em;
-			line-height: 1.2em;
-		}
+		width: 24px;
+		padding: 0 0 0 0.5em;
 	}
 }
 
+.columns {
+	.labelTitle {
+		float: left;
+	}
+}
 
-.intro-link
-	{
-		position: absolute;
-		bottom: 0px;
-		display: block;
-		padding: 12px 0 0 0;
-		width: 100%;
-		height: 100px;
-		background-color: #fff;
-		background-image: url(/images/icons/arrow-down.svg);
-		background-position: center center;
-		background-size: 50px;
-		background-repeat: no-repeat;
-		color:#222;
-		text-align: center;
-		text-decoration:none;
-		font-weight:bold;
-		font-size: 3.6em;
-		cursor: pointer;
+.hidden { display: none !important; }
+.visible { display: block !important; }
+
+.spinner { 
 	
-	&:hover
-		{
-			opacity: 0.8;
-		}
+	border: 1px solid #999;
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	padding: 20px;
+	margin-left: -12.5%;
+	text-align: center;
+	background-color: #fff;
+ }
+
+ .checked  {
+ 	width: 20px;
+ 	height: 20px;
+ 	display: none;
+ }
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    //margin: 0;
+}
+
+//END Form Elemente
+
+//START Mixins
+
+// -dj - margin mixin, je mehr Einträge im Array $margins, desto mehr benannte margin-bottoms
+$margins: (5,10,15,20,25,30,35,40,45);
+@each $margin in $margins {
+	.margin-bottom-#{$margin} { margin-bottom: #{$margin}px !important; }
 }
 
 
-footer
-{
-	ul {
-		float: right;
-		list-style-type: none;
-		
-		li {
-			float: left;
-			padding: 0 0.500em;
-			border-right: 1px solid #333;
-			
-			&:last-child {
-				padding: 0 0 0.500 0;
-				border: transparent;
-			}
-		}
+//OLD?
+// -dj - iconstep war ursprünglich für die Indikatoren gedacht um anzuzeigen wo im Prozess ich mich befinde
+.iconStep {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 11px;
+	font-size: 0.78571rem;
+	font-weight: bold;
+	text-align: center;
+	width: 25px;
+	height: 25px;
+	line-height: 21px;
+	border: 2px solid #ccc;
+	border-radius: 20px;
+	background: #fff;
+	margin: -2px 10px 0 0;
+
+	&.active {
+		background-color: #99d6c4;
 	}
 }
