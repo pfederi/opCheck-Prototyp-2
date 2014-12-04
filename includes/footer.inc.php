@@ -13,7 +13,8 @@
 	</div>
 	<div class="large-4 medium-6 small-6 columns">
 		<ul>
-			<li><a href="privacy-policy">Datenschutz-Richtlinien</a></li>
+			<li><a href="faq">FAQ</a></li>
+			<li><a href="datenschutz-richtlinien">Datenschutz-Richtlinien</a></li>
 			<li><a href="impressum">Impressum</a></li>
 		</ul>
 	</div>

@@ -1,13 +1,13 @@
 <?php include("../includes/header.inc.php"); ?>
 <section class="privacy-policy hyphenate">
 	<div class="row">
-	<h1>FAQ - Oft gestellte Fragen</h1>
+	<h1>Datenschutz-Richtlinien</h1>
 		<div class="large-12 columns">
 			<div class="row" data-equalizer>
 			<div class="large-4 columns">
 				<a href="javascript:void(0)" onclick="parent.$('html, body').animate({ scrollTop: parent.$('#Grundprinzien').offset().top},'slow');">
 					<div class="panel" data-equalizer-watch>
-						<p>Wer gibt "meine" Zweitmeinung ab?</p>
+						<p>Unsere Grundregeln im Umgang mit Ihren Daten</p>
 						<img src="/images/icons/arrow-down.svg" alt="öffnen" />
 					</div>
 				</a>
@@ -15,7 +15,7 @@
 			<div class="large-4 columns">
 				<a href="javascript:void(0)" onclick="parent.$('html, body').animate({ scrollTop: parent.$('#Speicherung').offset().top},'slow');">
 					<div class="panel" data-equalizer-watch>
-						<p>Muss ich weit fahren, um meinen Zweitmeinungsarzt zu sehen?</p>
+						<p>Datenerhebung und Weiterverwendung</p>
 						<img src="/images/icons/arrow-down.svg" alt="öffnen" />
 					</div>
 				</a>
@@ -23,7 +23,7 @@
 			<div class="large-4 columns">
 				<a href="javascript:void(0)" onclick="parent.$('html, body').animate({ scrollTop: parent.$('#Datenerhebung').offset().top},'slow');">
 					<div class="panel" data-equalizer-watch>
-						<p>Werden die Kosten von meiner Krankenkasse übernommen?</p>
+						<p>Wer hat Zugriff auf Ihre Daten?</p>
 						<img src="/images/icons/arrow-down.svg" alt="öffnen" />
 					</div>
 				</a>
@@ -33,7 +33,7 @@
 			<div class="large-4 columns">
 				<a href="javascript:void(0)" onclick="parent.$('html, body').animate({ scrollTop: parent.$('#Zugriff').offset().top},'slow');">
 					<div class="panel" data-equalizer-watch>
-						<p>Bekommt die Krankenkasse meine Zweitmeinung?</p>
+						<p>Verschlüsselung und Speicherung personenbezogener Daten</p>
 						<img src="/images/icons/arrow-down.svg" alt="öffnen" />
 					</div>
 				</a>
@@ -41,7 +41,7 @@
 			<div class="large-4 columns">
 				<a href="javascript:void(0)" onclick="parent.$('html, body').animate({ scrollTop: parent.$('#Datenuebermittlung').offset().top},'slow');">
 					<div class="panel" data-equalizer-watch>
-						<p>Kann ich meine Daten selbst löschen?</p>
+						<p>Datensicherung und sichere Speicherung auf externen Systemen</p>
 						<img src="/images/icons/arrow-down.svg" alt="öffnen" />
 					</div>
 				</a>
@@ -49,7 +49,7 @@
 			<div class="large-4 columns">
 				<a href="javascript:void(0)" onclick="parent.$('html, body').animate({ scrollTop: parent.$('#Sicherheit').offset().top},'slow');">
 					<div class="panel" data-equalizer-watch>
-						<p>Haben Sie weitere Fragen?</p>
+						<p>Haben Sie Fragen zum Thema Datensicherheit?</p>
 						<img src="/images/icons/arrow-down.svg" alt="öffnen" />
 					</div>
 				</a>
@@ -62,52 +62,59 @@
 		<div class="large-12 colums">
 			<div class="row">
 			<div class="large-4 columns" id="Grundprinzien">
-				<h2>Wer gibt "meine" Zweitmeinung ab?</h2>
+				<h2>Unsere Grundregeln im Umgang mit Ihren Daten</h2>
 			</div>
 			<div class="large-8 columns">
-				<p>...</p>
+				<p>opCheck legt besonderen Wert auf den sauberen und korekten Umgang mit Patientendaten. Jeder Mitarbeiter ist verpflichtet die eidgenössischen Datenschutzbestimmungen zu befolgen. opCheck befolgt insbesondere den <a href="http://www.edoeb.admin.ch/datenschutz/00628/00629/00635/index.html">Leitfaden für die Verarbeitung von Personendaten im medizinischen Bereich</a> des EDÖB.</p>
+				<p>Unsere Äezrw sind im Rahmen ihrer medizinischen Tätigkeit  ebenfalls zur Verschwiegenheit verpflichtet.</p>
 			</div>
 		</div>
 			<hr>
 			<div class="row">
 			<div class="large-4 columns" id="Speicherung">
-				<h2>Muss ich weit fahren, um meinen Zweitmeinungsarzt zu sehen?</h2>
+				<h2>Datenerhebung und Weiterverwendung</h2>
 			</div>
 			<div class="large-8 columns">
-				<p>...</p>
+				<p>Für die Beurteilung ihres Falles ist es unabdingbar, dass der Arzt ihre bestehenden Befunddaten vollständig erhält. Er ist dann auf Ihre Fragen im persönlichen Beratungsgespräch optimal vorbereitet. </p>
+				<p>Ihre Daten verbleiben dabei im System von opCheck. Sie werden ausschliesslich zur Zuweisung eines Arztes vom opCheck-Team gesichtet. Der Arzt analysiert Ihre Daten im Rahmen der Befund-Erstellung.</p>
+				<p>Nach Abgabe der Zweitmeinung haben Sie die Möglichkeit Ihre Daten selbstständig von der Plattform zu löschen. Erfolgt dies nicht, werden die Daten sechs Monate nach dem Befundbericht automatisch von der Plattform gelöscht.</p>
 			</div>
 		</div>
 			<hr>
 			<div class="row">
 			<div class="large-4 columns" id="Datenerhebung">
-				<h2>Werden die Kosten von meiner Krankenkasse übernommen?</h2>
+				<h2>Wer hat Zugriff auf Ihre Daten?</h2>
 			</div>
 			<div class="large-8 columns">
-				<p>...</p>
+				<p>Mitarbeiter des opCheck-Teams zur Zuweisung von Ärzten und administrativer Bearbeitung ihres Falles (z.B. Abrechnung).</p>
+				<p>Der von Ihnen ausgewählte Arzt im Rahmen der Befundung.</p>
+				<p>opCheck führt sämtliche administrativen Tätigkeiten selbst durch. Eine Weitergabe der Adressdaten zu werblichen Zwecken erfolgt nicht.</p>
 			</div>
 		</div>
 			<hr>
 			<div class="row">
 			<div class="large-4 columns" id="Zugriff">
-				<h2>Bekommt die Krankenkasse meine Zweitmeinung?</h2>
+				<h2>Verschlüsselung und Speicherung personenbezogener Daten</h2>
 			</div>
 			<div class="large-8 columns">
-				<p>...</p>
+				<p>Ihre Daten werden bei opCheck fallbezogen gespeichert. Jede beantragte Zweitmeinung wird anhand der individuellen Fallnummer identifiziert. Sie haben bei uns kein Benutzerkonto, sondern nur die Fallnummer. Sechs Monate nach Abschluss der Zweitmeinung werden Ihre Daten von der Plattform gelöscht.</p>
+				<p>Ihre personenenbezogenen Daten werden intern bei opCheck bereits verschlüsselt gespeichert. Nur Mitarbeiter, die unmittelbar mit Ihrem Fall vertraut sind, haben Zugriff.</p>
+				<p>Alle Eingaben und Recherchen von Ihnen auf der opCheck-Plattform erfolgen mittels verschlüsselter Kommunikation. Zur sicheren und für Dritte unlesbaren Übertragung setzen wir eine SSL-Verschlüsselung ein.</p>
 			</div>
 		</div>
 			<hr>
 			<div class="row">
 			<div class="large-4 columns" id="Datenuebermittlung">
-				<h2>Kann ich meine Daten selbst löschen?</h2>
+				<h2>Datensicherung und sichere Speicherung auf externen Systemen</h2>
 			</div>
 			<div class="large-8 columns">
-				<p>...</p>
+				<p>opCheck verwendet für externe Backups ausschliesslich Schweizer Rechenzentren und Cloud-Services aus der Schweiz. Alle Backups erfolgen verschlüsselt (Norm tbd).</p>
 			</div>
 		</div>
 			<hr>
 			<div class="row">
 			<div class="large-4 columns" id="Sicherheit">
-				<h2>Haben Sie weitere Fragen?</h2>
+				<h2>Haben Sie Fragen zum Thema Datensicherheit?</h2>
 			</div>
 			<div class="large-8 columns">
 				<p>Kommen Sie gern auf uns zu. Bitte schreiben Sie uns unter <a href="mailto:sicherheit@opcheck.ch">sicherheit@opcheck.ch</a> oder rufen Sie uns unter 044 123 45 67 an.</p>

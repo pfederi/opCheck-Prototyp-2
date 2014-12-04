@@ -66,7 +66,7 @@
 			</div>
 			<div class="large-8 columns">
 				<p>opCheck legt besonderen Wert auf den sauberen und korekten Umgang mit Patientendaten. Jeder Mitarbeiter ist verpflichtet die eidgenössischen Datenschutzbestimmungen zu befolgen. opCheck befolgt insbesondere den <a href="http://www.edoeb.admin.ch/datenschutz/00628/00629/00635/index.html">Leitfaden für die Verarbeitung von Personendaten im medizinischen Bereich</a> des EDÖB.</p>
-				<p>Unsere Äezrw sind im Rahmen ihrer medizinischen Tätigkeit  ebenfalls zur Verschwiegenheit verpflichtet.</p>
+				<p>Unsere Ärzte sind im Rahmen ihrer medizinischen Tätigkeit  ebenfalls zur Verschwiegenheit verpflichtet.</p>
 			</div>
 		</div>
 			<hr>
