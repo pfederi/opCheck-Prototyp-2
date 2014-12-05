@@ -1,6 +1,6 @@
 <div class="row">
 	<div class="large-12 columns">
-<!-- 		<h1>1 - Demographische Daten</h1> -->
+<!-- 		<h1>1 - Angaben zur Person</h1> -->
 		<form>	
 		<div class="margin-bottom-15">
 			

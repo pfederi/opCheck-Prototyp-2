@@ -7,7 +7,7 @@
 		<p>Lassen Sie sich Zeit. Sie haben jederzeit die Möglichkeit die eingegebenen Daten zu speichern. Sie können dann die Eingabe zu einem späteren Zeitpunkt wieder aufnehmen und komplettieren.</p>
 		<dl class="accordion" data-accordion="">
 		  <dd class="accordion-navigation">
-		  	<a class="firstPanel" href="#panel1b"><div class="left progress-counter"><span class="iconStep">1</span></div> Demographische Daten <span class="right checked"><img src="../../images/icons/checked.svg" alt="Ausgefüllt Anzeige"></span></a> 
+		  	<a class="firstPanel" href="#panel1b"><div class="left progress-counter"><span class="iconStep">1</span></div>Angaben zur Person<span class="right checked"><img src="../../images/icons/checked.svg" alt="Ausgefüllt Anzeige"></span></a> 
 		    <div id="panel1b" class="content active">
 				<div class="row">
 					<div class="large-9 columns">
