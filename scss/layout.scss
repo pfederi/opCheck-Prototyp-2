@@ -45,6 +45,12 @@ body
 	 background: #ddd;
 	 padding: 1em 1em 0.750em;
 	 
+	 p {
+		 position: relative;
+		 top: 50%;
+		 transform: translateY(-50%);
+	 }
+	 
 	&:after, &:before {
 		right: 100%;
 		top: 50%;
@@ -176,7 +182,7 @@ h3
 			line-height: 1.2em;
 			
 			span {
-				font-size: 0.875em;
+				font-size: 1rem;
 			}
 		}
 	}

@@ -15894,6 +15894,10 @@ body {
   height: 176px;
   background: #ddd;
   padding: 1em 1em 0.750em; }
+  .mitteilung p {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); }
   .mitteilung:after, .mitteilung:before {
     right: 100%;
     top: 50%;
@@ -15910,7 +15914,7 @@ body {
     margin-top: -10px; }
   .mitteilung:before {
     border-color: transparent;
-    border-right-color: #fff;
+    border-right-color: #ffffff;
     border-width: 11px;
     margin-top: -11px; }
 
@@ -15975,7 +15979,7 @@ h3 {
   font-size: 1.5em;
   line-height: 1.2em; }
   .privacy-policy .panel p span, .impressum .panel p span {
-    font-size: 0.875em; }
+    font-size: 0.750em; }
 
 .surgeon > div {
   position: relative;
