@@ -50,17 +50,18 @@
 		  	<div id="blk-2" class="tohide" style="display: none;">
 			  	<div class="row">
 				  	<div class="large-6 columns">
-					  	<p>Bitte senden Sie wenn möglich folgende Dokumente an nebenstehende Adresse:</p>
+					  	<p>Bitte senden Sie - soweit vorhanden - folgende Dokumente an nebenstehende Adresse:</p>
 					  	<ul class="liste">
 						  	<li>Röntgenbilder</li>
 						  	<li>MRT</li>
 						  	<li>Weitere Befundbilder</li>
 					  	</ul>
+					  	<p>opCheck übermittelt die Dokumente an Ihren Zweitmeinungsarzt. Sie erhalten diese nach Abschluss Ihres Falles zurück.</p>
 				  	</div>
 				  	<div class="large-6 columns">
 					  	<p>
 					  	opCheck AG
-					  	Befundbilder
+					  	Befundbilder Fallnr. 987321-1
 					  	Birmensdorferstrasse 470
 					  	8055 Zürich
 					  	Schweiz
