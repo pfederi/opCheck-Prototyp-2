@@ -23417,6 +23417,26 @@ input[type=number]::-webkit-outer-spin-button {
   margin: 0;
 }
 
+/* line 9, ../scss/_darko.scss */
+.login.form {
+  padding-top: 30px;
+  background-image: none;
+}
+
+@media only screen and (min-width: 64.063em) {
+  /* line 19, ../scss/_darko.scss */
+  .login.form {
+    padding-top: 30px;
+    background: transparent url("../images/design/vertical_divider.gif") 50% 50% no-repeat;
+  }
+}
+/* line 29, ../scss/_darko.scss */
+.hinweis.bsp {
+  margin-top: 5px;
+  color: #222;
+  font-size: .875em;
+}
+
 /* line 6, ../scss/layout.scss */
 .prototypnummer {
   position: absolute;
@@ -23863,12 +23883,13 @@ progress[value]::-webkit-progress-bar {
 .spinner {
   border: 1px solid #999;
   position: absolute;
-  top: 25%;
+  top: 20%;
   left: 50%;
   padding: 20px;
   margin-left: -12.5%;
   text-align: center;
   background-color: #fff;
+  z-index: 9999;
 }
 
 /* line 492, ../scss/layout.scss */
@@ -23948,17 +23969,4 @@ input[type=number]::-webkit-outer-spin-button {
 /* line 532, ../scss/layout.scss */
 .iconStep.active {
   background-color: #99d6c4;
-}
-
-/* line 539, ../scss/layout.scss */
-.login.form {
-  padding-top: 30px;
-  background: transparent url("../images/design/vertical_divider.gif") 50% 50% no-repeat;
-}
-
-/* line 544, ../scss/layout.scss */
-.hinweis.bsp {
-  margin-top: 5px;
-  color: #222;
-  font-size: .875em;
 }
