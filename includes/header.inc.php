@@ -59,6 +59,7 @@
 				<button onclick="window.location.href='login'">Registrieren / Login</button>
 				<ul id="lstHauptnavigation">
 					<li><a href="patienten-informationen">Patienten-Informationen</a></li>
+          <li><a href="ueber-uns">Über uns</a></li>
 					<li><a href="aerzte-zugang">Ärzte-Zugang</a></li>
 				</ul>
 			</div>

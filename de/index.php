@@ -33,10 +33,10 @@
 				<img src="/images/icons/check.svg" alt="check"><p>Neutrale und individuelle Betrachung Ihres Falles</p>
 			</div>
 			<div class="large-4 columns">
-				<img src="/images/icons/check.svg" alt="check"><p>Beratung durch unabhängige und anerkannte Spezialisten mit FMH-Ausweis</p>
+				<img src="/images/icons/check.svg" alt="check"><p>Beratung durch unabhängige und anerkannte Fachärzte mit FMH-Ausweis</p>
 			</div>
 			<div class="large-4 columns">
-				<img src="/images/icons/check.svg" alt="check"><p>Keine Telemedizin - Sie sprechen direkt mit dem Spezialisten</p>
+				<img src="/images/icons/check.svg" alt="check"><p>Keine schriftliche Beurteilung - Sie sprechen direkt mit dem Arzt</p>
 			</div>
 		</div>
 		<div class="row">
@@ -47,7 +47,7 @@
 				<img src="/images/icons/check.svg" alt="check"><p>Übernahme der Konsultationskosten durch die Krankenkasse</p>
 			</div>
 			<div class="large-4 columns">
-				<img src="/images/icons/check.svg" alt="check"><p>Niedrige Schutzgebühr von CHF 25 bei durchgeführter Beratung </p>
+				<img src="/images/icons/check.svg" alt="check"><p>Niedrige Schutzgebühr von CHF 50, Rückerstattung von CHF 25 bei durchgeführtem Zweitmeinungsgespräch</p>
 			</div>
 		</div>
 	</div>
@@ -73,12 +73,12 @@
 				<div><span>2</span></div>
 			</div>
 			<div class="large-5 columns panel" data-equalizer-watch>
-				Die Daten werden vom opCheck-Team auf Vollständigkeit geprüft. Anschliessend werden passende Spezialisten gesucht und dem Patienten vorgeschlagen.
+				Die Daten werden vom opCheck-Team auf Vollständigkeit geprüft. Anschliessend werden passende Fachärzte gesucht und dem Patienten vorgeschlagen.
 			</div>
 		</div>
 		<div class="row">
 			<div class="large-5 columns panel" data-equalizer-watch>
-				Der Patient wählt einen Spezialisten aus und vereinbart einen Termin.
+				Der Patient wählt einen Arzt aus und vereinbart einen Termin.
 			</div>
 			<div class="large-2 columns number" data-equalizer-watch>
 				<div><span>3</span></div>
@@ -91,7 +91,7 @@
 				<div><span>4</span></div>
 			</div>
 			<div class="large-5 columns panel" data-equalizer-watch>
-				Spezialist und Patient treffen sich persönlich zum ausführlichen Zweitmeinungsgespräch.
+				Arzt und Patient treffen sich persönlich zum ausführlichen Zweitmeinungsgespräch.
 			</div>
 			
 		</div>
@@ -107,8 +107,8 @@
 	</div>
 	<span class="intro-link"></span>
 </section>
-<hr>
-<!-- Wer ist opCheck -->
+<!-- <hr>
+Wer ist opCheck
 <section class="row">
 	<div class="large-12 columns">
 		<div class="row">
@@ -130,7 +130,7 @@
 		</div>
 	</div>
 </section>
-
+-->
  <script>
 $(document).ready(function () {
 	$('.intro-link').on('click',function()
