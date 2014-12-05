@@ -45,7 +45,7 @@ body
 // START Header
 header
 {
-	height: 70px;
+	//height: 70px; (-dj-)
 	border-bottom: 1px solid #bbb;
 	background: rgba(255,255,255,0.9);
 	
@@ -366,5 +366,13 @@ $margins: (5,10,15,20,25,30,35,40,45);
 
 	&.active {
 		background-color: #99d6c4;
+	}
+}
+
+// -dj- vertical divider im login formular
+.login {
+	&.form {
+		padding-top: 30px;
+		background: transparent url('../images/design/vertical_divider.gif') 50% 50% no-repeat;
 	}
 }

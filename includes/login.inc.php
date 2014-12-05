@@ -16,4 +16,5 @@
 		<div class="large-3 columns">
 			<a href="#" class="button expand white">Abbrechen</a>
 		</div>
+	</div>
 </form>
