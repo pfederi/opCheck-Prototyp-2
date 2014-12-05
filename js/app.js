@@ -1,4 +1,3 @@
-$(document).foundation();
 
 $('.firstAccordSave').click(function() {
 	/* Act on the event */
@@ -96,5 +95,6 @@ $('#verification').on('valid.fndtn.abide', function () {
     	event.preventDefault()
   });
 
+$(document).foundation();
 
 

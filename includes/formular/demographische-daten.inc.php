@@ -1,6 +1,5 @@
 <div class="row">
 	<div class="large-12 columns">
-<!-- 		<h1>1 - Angaben zur Person</h1> -->
 		<form>	
 		<div class="margin-bottom-15">
 			
@@ -8,7 +7,6 @@
 			   	<div class="large-2 columns end">
 					<label>Anrede</label>
 					<select>
-<!-- 					<option value="#">...</option>	 -->
                   	<option value="herr">Herr</option>
                   	<option value="frau">Frau</option>
                   </select>

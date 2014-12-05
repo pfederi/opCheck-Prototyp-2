@@ -1,8 +1,8 @@
 <?php include("../../includes/header.inc.php"); ?>
 
-<div class="row margin-bottom-40">
+<div class="row margin-bottom-40" data-equalizer>
 	<?php include("../../includes/stepbystep.inc.php"); ?>
-	<div class="large-9 columns">
+	<div class="large-9 columns" data-equalizer-watch>
 		<h1>Zweitmeinung bestellen</h1>
 		<p>Bitte füllen Sie die untenstehenden Formulare vollständig aus.</p>
 		<p>Lassen Sie sich Zeit. Sie haben jederzeit die Möglichkeit die eingegebenen Daten zu speichern. Sie können dann die Eingabe zu einem späteren Zeitpunkt wieder aufnehmen und komplettieren.</p>
@@ -16,7 +16,7 @@
 						<?php include("../../includes/formular/demographische-daten.inc.php"); ?>
 					</div>
 					<div class="large-3 columns">
-						<div class="formInfo">
+						<div class="formInfo hyphenate">
 							<p>Ihre Demographischen Daten werden zur Verwaltung des Falles benötigt.</p> 
 							<p>Die Telefondaten dienen zur Kontaktaufnahme des Arztes mit Ihnen.</p> 
 							<p>Die Angaben zu Geburtsdatum, Grösse und Gewicht sind wichtige Vorabinformationen für den Arzt.</p>						

@@ -11,6 +11,7 @@
 	border: 1px solid #111;
 	background: #333;
 	color: #fff;
+	display: none;
 }
 
 // END Anzeige für Prototypnummer
@@ -18,7 +19,7 @@
 // START Layoutelemente
 body
 {
-	margin-top: 70px;
+	padding-top: 65px;
 }
 
 // Fixed Header
@@ -141,6 +142,11 @@ h3
 	padding: 0.500em 0 2em;
 	background: #fff;
 	text-align: center;
+}
+
+large {
+	font-size: 1.4em;
+
 }
 
 //Hyphenator Klassen
@@ -341,6 +347,11 @@ h3
 					
 					&:first-child {
 						border-right: 1px solid #ddd;
+						background:$primary-color;
+						
+						a {
+							color: #fff;
+						}
 					}
 					&:last-child
 					{
@@ -354,7 +365,6 @@ h3
 						font-size: 0.750rem;
 						text-transform: none;
 						padding: 0.3753em;
-						
 					}
 				}
 			}
@@ -445,10 +455,20 @@ progress[value]::-webkit-progress-bar {
 //START Form Elemente
 	
 // -dj - forminfo ist für die Informationseinblendung auf der Seite, in jedem Bereich des Formulars (im Akkordeon)
+label
+{
+	cursor: default;
+}
+
 .formInfo {
+	background: #fef7da;
+	border: 1px solid #ddd;
+	margin: 0 0 1em 0;
+	
 	p {
 		font-size: .875em;
 		line-height: 1.2em;
+		padding: .750em .750em 0;
 	}
 }
 .button.expand.white {
@@ -458,20 +478,22 @@ progress[value]::-webkit-progress-bar {
 }
 
 //Tooltip
-.tip-top {
+
+
+
+.tooltip{
+position: absolute;
+} 
+
+.tip-bottom {
 	float: left;
-	margin: -0.250em 0 0 0;
-	
-	img {
-		width: 24px;
-		padding: 0 0 0 0.5em;
-	}
+	width: 18px;
 }
 
-.columns {
-	.labelTitle {
-		float: left;
-	}
+
+.labelTitle {
+	float: left;
+	padding-right: .500em;
 }
 
 .hidden { display: none !important; }
@@ -494,6 +516,7 @@ progress[value]::-webkit-progress-bar {
  	height: 20px;
  	display: none;
  }
+
 
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {

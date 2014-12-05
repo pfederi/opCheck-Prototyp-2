@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/layout-darko.css" />
 -->
     <link rel="stylesheet" href="../css/layout.css" />
+    <link rel="stylesheet" href="../css/dropzone.css" />
     <script src="../bower_components/modernizr/modernizr.js"></script>
     <script src="../js/hyphenator/hyphenator-loader-1.1.min.js"></script>
     <script src="../bower_components/jquery/dist/jquery.min.js"></script>
@@ -58,9 +59,9 @@
 			<div class="large-8 medium-8 columns">
 				<button onclick="window.location.href='login'">Registrieren / Login</button>
 				<ul id="lstHauptnavigation">
-					<li><a href="patienten-informationen">Patienten-Informationen</a></li>
-          <li><a href="ueber-uns">Über uns</a></li>
-					<li><a href="aerzte-zugang">Ärzte-Zugang</a></li>
+					<li><a href="/ueber-uns">Über uns</a></li>
+					<li><a href="/patienten-informationen">Patienten-Informationen</a></li>
+					<li><a href="/aerzte-zugang">Ärzte-Zugang</a></li>
 				</ul>
 			</div>
 		</div>

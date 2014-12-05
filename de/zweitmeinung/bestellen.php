@@ -1,8 +1,8 @@
 <?php include("../../includes/header.inc.php"); ?>
 
-<div class="row">
+<div class="row" data-equalizer>
 	<?php include("../../includes/stepbystep.inc.php"); ?>
-	<div class="large-9 medium-9 small-11 columns">
+	<div class="large-9 medium-9 small-11 columns" data-equalizer-watch>
 		<div class="row">
 			<div class="large-12 columns mitteilung">
 				<p>Ihre persönliche Fallnummer wurde erstellt.<br>

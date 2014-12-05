@@ -1,4 +1,4 @@
-<div class="large-3 medium-3 small-1 columns stepbystep">
+<div class="large-3 medium-3 small-1 columns stepbystep" data-equalizer-watch>
 	<ul id="lstZweitmeinung">
 		<li><img src="/images/logos/surgeon-sw.png" alt="Surgeon" />Ihre Fallnummer<br><span>9876321-1</span>
 			<ul>
