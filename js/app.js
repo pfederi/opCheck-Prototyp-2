@@ -79,7 +79,7 @@ $('#verification').on('valid.fndtn.abide', function () {
 		info.removeClass("hidden");
 	}
 	setTimeout(function() {
-		window.location.href  = "zweitmeinung"; 
+		window.location.href  = "bestellen"; 
 		}, 2000);
     	event.preventDefault()
   });

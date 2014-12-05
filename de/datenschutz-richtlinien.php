@@ -114,7 +114,7 @@
 				<h2>Datensicherung und sichere Speicherung auf externen Systemen</h2>
 			</div>
 			<div class="large-8 columns">
-				<p>opCheck verwendet für externe Backups ausschliesslich Schweizer Rechenzentren und Cloud-Services aus der Schweiz. Alle Backups erfolgen verschlüsselt (Norm tbd).</p>
+				<p>opCheck betreibt seine Server ausschliesslich in Schweizer Rechenzentren. Alle Backups erfolgen verschlüsselt (Norm tbd).</p>
 			</div>
 		</div>
 			<hr>

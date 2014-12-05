@@ -7,7 +7,7 @@
               <div class="large-4 columns">         
                 <label class="labelTitle">Fachbereich</label>    
                   <div data-tooltip aria-haspopup="true" class="tip-top" title="Wählen Sie zunächst das Fachgebiet.">
-                  	<img src="images/icons/help.svg" alt="help">
+                  	<img src="/images/icons/help.svg" alt="help">
                   </div>
                 <select>
                   <option value="#">...</option>
@@ -21,7 +21,7 @@
               <div class="large-4 columns">                 
                 <label class="labelTitle">Bereich</label>
                   <div data-tooltip aria-haspopup="true" class="tip-top" title="Welcher Bereich ist betroffen?">
-                  	<img src="images/icons/help.svg" alt="help">
+                  	<img src="/images/icons/help.svg" alt="help">
                   </div>
                 <select>
                   <option value="#">...</option>
@@ -37,7 +37,7 @@
               <div class="large-4 columns">    
                  <label class="labelTitle">Befund</label>
                   <div data-tooltip aria-haspopup="true" class="tip-top" title="Welche Diagnose hat Ihr Arzt gestellt?">
-                  	<img src="images/icons/help.svg" alt="help">
+                  	<img src="/images/icons/help.svg" alt="help">
                   </div>
                  <select>
                   <option value="#">...</option>
@@ -50,7 +50,7 @@
           </div> 
 	      <div class="row">
               <div class="large-12 columns">
-                <label>Wurde Ihnen vom Spezialisten eine OP empfohlen?</label>
+                <label>Hat Ihr Arzt eine Operation empfohlen?</label>
                 <input type="radio" name="spezialist" value="Ja" id="op-ja">
                 <label for="op-ja">Ja</label>
                 <input type="radio" name="spezialist" value="Nein" id="op-nein">
@@ -59,7 +59,10 @@
         </div>
 	      <div class="row">
             <div class="large-6 columns">
-              <label>Gründe für eine Zweitmeinung</label>
+              <label>Ihre Gründe für eine Zweitmeinung</label>
+              <div data-tooltip aria-haspopup="true" class="tip-top" title="Bitte alle Gründe anwählen, die für Sie zutreffen.">
+                    <img src="/images/icons/help.svg" alt="help">
+              </div>
               <input id="checkbox1" type="checkbox"><label for="checkbox1">Ich bin unsicher</label>
               <input id="checkbox2" type="checkbox"><label for="checkbox2">Ich möchte mich umfassender informieren</label>
             </div>
