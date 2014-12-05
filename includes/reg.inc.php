@@ -1,7 +1,7 @@
 <form id="login" action="" method="" accept-charset="utf-8" data-abide>
 	<div class="email-field">
 		<label>Ihre Fallnummer <small>(Pflichtfeld)</small></label>
-		<input type="email" required placeholder="3487655.076">
+		<input type="number" required placeholder="3487655.076">
 		<small class="error">Wir benötigen eine gültige Fallnummer, um richtig identifizeren zu können.</small>
 	</div>
 	<div class="email-field">

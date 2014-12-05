@@ -12,6 +12,7 @@
 			<div class="email-field">
 				<label>SMS-Code <small>(Pflichtfeld)</small></label>
 				<input type="number" required>
+				<p class="hinweis bsp"><b>Bsp.:</b> 454458</p>
 				<small class="error">Um Ihnen Zugriff auf die Plattform zu gewähren, benötigen wir eine gültige Natel-Nummer</small>
 			</div>
 			<button type="submit" id="loginWeiter">Anmelden</button>

@@ -23782,3 +23782,10 @@ input[type=number]::-webkit-outer-spin-button {
   padding-top: 30px;
   background: transparent url("../images/design/vertical_divider.gif") 50% 50% no-repeat;
 }
+
+/* line 379, ../scss/layout.scss */
+.hinweis.bsp {
+  margin-top: 5px;
+  color: #222;
+  font-size: .875em;
+}
