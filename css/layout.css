@@ -108,7 +108,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 62.5rem; }
+  max-width: 78.125rem; }
   .row:before, .row:after {
     content: " ";
     display: table; }
@@ -7017,7 +7017,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 62.5rem; }
+  max-width: 78.125rem; }
   .row:before, .row:after {
     content: " ";
     display: table; }
@@ -8033,7 +8033,7 @@ select {
   @media only screen and (min-width: 40.063em) {
     .reveal-modal, dialog {
       width: 80%;
-      max-width: 62.5rem;
+      max-width: 78.125rem;
       left: 0;
       right: 0;
       margin: 0 auto; } }
@@ -8049,35 +8049,35 @@ select {
   @media only screen and (min-width: 40.063em) {
     .reveal-modal.tiny, dialog.tiny {
       width: 30%;
-      max-width: 62.5rem;
+      max-width: 78.125rem;
       left: 0;
       right: 0;
       margin: 0 auto; } }
   @media only screen and (min-width: 40.063em) {
     .reveal-modal.small, dialog.small {
       width: 40%;
-      max-width: 62.5rem;
+      max-width: 78.125rem;
       left: 0;
       right: 0;
       margin: 0 auto; } }
   @media only screen and (min-width: 40.063em) {
     .reveal-modal.medium, dialog.medium {
       width: 60%;
-      max-width: 62.5rem;
+      max-width: 78.125rem;
       left: 0;
       right: 0;
       margin: 0 auto; } }
   @media only screen and (min-width: 40.063em) {
     .reveal-modal.large, dialog.large {
       width: 70%;
-      max-width: 62.5rem;
+      max-width: 78.125rem;
       left: 0;
       right: 0;
       margin: 0 auto; } }
   @media only screen and (min-width: 40.063em) {
     .reveal-modal.xlarge, dialog.xlarge {
       width: 95%;
-      max-width: 62.5rem;
+      max-width: 78.125rem;
       left: 0;
       right: 0;
       margin: 0 auto; } }
@@ -8092,7 +8092,7 @@ select {
     @media only screen and (min-width: 40.063em) {
       .reveal-modal.full, dialog.full {
         width: 100vw;
-        max-width: 62.5rem;
+        max-width: 78.125rem;
         left: 0;
         right: 0;
         margin: 0 auto; } }
@@ -9599,7 +9599,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 62.5rem; }
+  max-width: 78.125rem; }
   .row:before, .row:after {
     content: " ";
     display: table; }
@@ -11170,7 +11170,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 62.5rem; }
+  max-width: 78.125rem; }
   .row:before, .row:after {
     content: " ";
     display: table; }
@@ -13643,7 +13643,7 @@ meta.foundation-mq-topbar {
       background: #333333; }
 
   .contain-to-grid .top-bar {
-    max-width: 62.5rem;
+    max-width: 78.125rem;
     margin: 0 auto;
     margin-bottom: 0; }
 
@@ -15890,6 +15890,30 @@ body {
   .sticky.fixed {
     top: 130px; }
 
+.mitteilung {
+  height: 176px;
+  background: #ddd;
+  padding: 1em 1em 0.750em; }
+  .mitteilung:after, .mitteilung:before {
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none; }
+  .mitteilung:after {
+    border-color: rgba(221, 221, 221, 0);
+    border-right-color: #dddddd;
+    border-width: 10px;
+    margin-top: -10px; }
+  .mitteilung:before {
+    border-color: transparent;
+    border-right-color: #fff;
+    border-width: 11px;
+    margin-top: -11px; }
+
 header {
   height: 70px;
   border-bottom: 1px solid #bbb;
@@ -15950,6 +15974,8 @@ h3 {
 .privacy-policy .panel p, .impressum .panel p {
   font-size: 1.5em;
   line-height: 1.2em; }
+  .privacy-policy .panel p span, .impressum .panel p span {
+    font-size: 0.875em; }
 
 .surgeon > div {
   position: relative;
@@ -16006,12 +16032,99 @@ h3 {
         font-weight: 600;
         font-size: 1.5em; }
 
+.stepbystep {
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  padding: 0; }
+
 #lstZweitmeinung {
+  position: relative;
   width: 100%;
-  list-style-type: none; }
+  list-style-type: none;
+  margin: 3em 0 0 0;
+  border-top: 1px solid #ddd;
+  padding: 2em 0 0 0; }
+  #lstZweitmeinung img {
+    position: absolute;
+    width: 56px;
+    top: -4.5em;
+    left: 0;
+    right: 0;
+    margin: 0 auto; }
   #lstZweitmeinung li {
-    background: #333;
-    margin-bottom: 1px; }
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-top: 1px; }
+    #lstZweitmeinung li:first-child {
+      text-align: center;
+      text-transform: uppercase;
+      border-top: none; }
+      #lstZweitmeinung li:first-child span {
+        display: block;
+        width: 100%;
+        font-size: 1.500rem; }
+      #lstZweitmeinung li:first-child:after, #lstZweitmeinung li:first-child:before {
+        border: none; }
+      #lstZweitmeinung li:first-child ul {
+        margin: 0;
+        padding: 0;
+        border-top: 1px solid #ddd; }
+        #lstZweitmeinung li:first-child ul li {
+          float: left;
+          list-style-type: none;
+          width: 50%;
+          border-bottom: 1px solid #ddd; }
+          #lstZweitmeinung li:first-child ul li:first-child {
+            border-right: 1px solid #ddd; }
+          #lstZweitmeinung li:first-child ul li:last-child {
+            border-top: none; }
+          #lstZweitmeinung li:first-child ul li:after, #lstZweitmeinung li:first-child ul li:before {
+            border: none; }
+          #lstZweitmeinung li:first-child ul li a {
+            font-size: 0.750rem;
+            text-transform: none;
+            padding: 0.3753em; }
+    #lstZweitmeinung li a {
+      display: block;
+      padding: 1em; }
+      #lstZweitmeinung li a.selected:after, #lstZweitmeinung li a.selected:before {
+        left: 100%;
+        top: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none; }
+      #lstZweitmeinung li a.selected:after {
+        border-color: rgba(255, 255, 255, 0);
+        border-left-color: #ffffff;
+        border-width: 10px;
+        margin-top: -10px; }
+      #lstZweitmeinung li a.selected:before {
+        border-color: rgba(221, 221, 221, 0);
+        border-left-color: #ddd;
+        border-width: 11px;
+        margin-top: -11px; }
+    #lstZweitmeinung li:last-child {
+      border-bottom: 1px solid #ddd; }
+
+progress[value] {
+  /* Reset the default appearance */
+  float: left;
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 3px;
+  background: #fff; }
+
+progress[value]::-webkit-progress-bar {
+  background-color: #ddd;
+  border-radius: 0;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25) inset; }
 
 .accordion dd {
   border-bottom: 1px solid #ccc; }
