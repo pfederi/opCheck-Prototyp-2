@@ -65,7 +65,7 @@
 				<h2>Wer gibt "meine" Zweitmeinung ab?</h2>
 			</div>
 			<div class="large-8 columns">
-				<p>...</p>
+				<p>opCheck vermittelt ausschliesslich Schweizer Fachärzte mit FMH-Ausweis.</p>
 			</div>
 		</div>
 			<hr>
@@ -74,7 +74,7 @@
 				<h2>Muss ich weit fahren, um meinen Zweitmeinungsarzt zu sehen?</h2>
 			</div>
 			<div class="large-8 columns">
-				<p>...</p>
+				<p>Wir bemühen uns, Ihnen nach Möglichkeit einen Arzt in der Nähe Ihres Wohnortes zu vermitteln. Wir analysieren Ihren Fall im Detail und schlagen Ihnen die jeweils geeigneten Ärzte zur Auswahl vor. Sie entscheiden dann selbst, welchen Arzt Sie für Ihre Zweitmeinung auswählen.</p>
 			</div>
 		</div>
 			<hr>
@@ -83,7 +83,7 @@
 				<h2>Werden die Kosten von meiner Krankenkasse übernommen?</h2>
 			</div>
 			<div class="large-8 columns">
-				<p>...</p>
+				<p>Fast alle Schweizer Krankenkassen übernehmen die Kosten im Rahmen einer bestehenden Zusatzversicherung. Die meisten erstatten die Kosten für eine Zweitmeiung auch im Rahmen der gesetzlichen Krankenversicherung. Bitte wenden Sie sich im Zweifel vorgängig an Ihre Krankenkasse.</p>
 			</div>
 		</div>
 			<hr>
@@ -92,7 +92,7 @@
 				<h2>Bekommt die Krankenkasse meine Zweitmeinung?</h2>
 			</div>
 			<div class="large-8 columns">
-				<p>...</p>
+				<p>Die Zweitmeinung ist eine ärztliche Diagnose, die der Schweigepflicht unterliegt. Ihre Krankenkasse erhält bei Kostenübernahme lediglich die Information, dass eine Zweitmeiung abgegeben wurde.</p>
 			</div>
 		</div>
 			<hr>
@@ -101,7 +101,7 @@
 				<h2>Kann ich meine Daten selbst löschen?</h2>
 			</div>
 			<div class="large-8 columns">
-				<p>...</p>
+				<p>Nach dem Zweitmeinungsgespräch können Sie Ihren schriftlichen Befund von der opCheck-Plattform herunterladen und anschliessend Ihre Daten löschen. opCheck löscht Ihre Daten automatisch sechs Monate nach Abgabe der Zweitmeinung, wenn der Patient seine Daten vorher nicht selbst gelöscht hat.</p>
 			</div>
 		</div>
 			<hr>
