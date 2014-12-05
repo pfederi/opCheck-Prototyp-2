@@ -1,7 +1,8 @@
 <?php include("../../includes/header.inc.php"); ?>
 
 <div class="row margin-bottom-40">
-	<div class="large-12 columns">
+	<?php include("../../includes/stepbystep.inc.php"); ?>
+	<div class="large-9 columns">
 		<h1>Zweitmeinung bestellen</h1>
 		<p>Bitte füllen Sie die untenstehenden Formulare vollständig aus.</p>
 		<p>Lassen Sie sich Zeit. Sie haben jederzeit die Möglichkeit die eingegebenen Daten zu speichern. Sie können dann die Eingabe zu einem späteren Zeitpunkt wieder aufnehmen und komplettieren.</p>

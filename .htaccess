@@ -14,6 +14,10 @@ RewriteRule ^verifizierung/?$ /de/verifizierung.php [L]
 RewriteRule ^zweitmeinung/?$ /de/zweitmeinung.php [L]
 RewriteRule ^zweitmeinung/bestellen/?$ /de/zweitmeinung/bestellen.php [L]
 RewriteRule ^zweitmeinung/dateneingabe/?$ /de/zweitmeinung/dateneingabe.php [L]
+RewriteRule ^zweitmeinung/datenpruefung/?$ /de/zweitmeinung/datenpruefung.php [L]
+RewriteRule ^zweitmeinung/spezialistenauswahl/?$ /de/zweitmeinung/spezialistenauswahl.php [L]
+RewriteRule ^zweitmeinung/gespraech/?$ /de/zweitmeinung/gespraech.php [L]
+RewriteRule ^zweitmeinung/befund/?$ /de/zweitmeinung/befund.php [L]
 
 
 RewriteRule ^faq/?$ /de/faq.php [L]
