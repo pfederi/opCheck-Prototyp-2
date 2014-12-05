@@ -52,10 +52,10 @@
 	<header class="fixed">
 		<div class="prototypnummer">Prototyp 2</div>
 		<div class="row">
-			<div class="large-6 medium-6 columns">
+			<div class="large-5 medium-5 columns">
 				<a href="/" class="logo">opCheck</a>
 			</div>
-			<div class="large-6 medium-6 columns">
+			<div class="large-7 medium-7 columns">
 				<button onclick="window.location.href='login'">Registrieren / Login</button>
 				<ul id="lstHauptnavigation">
 					<li><a href="patienten-informationen">Patienten-Informationen</a></li>
