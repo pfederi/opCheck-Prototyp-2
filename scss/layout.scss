@@ -44,9 +44,10 @@ body
  
  .mitteilung {
 	 height: 176px;
-	 background: #ddd;
-	 margin: 0 0 1em 0;
-	 padding: 1em 1em 0.750em 3em;
+	 background: #fef7da;
+	 margin: 0 0 1em -2em;
+	 width: auto;
+	 padding: 1em 3em 0.750em 3em;
 	 
 	 p {
 		 position: relative;
@@ -67,13 +68,13 @@ body
 	
 	&:after {
 		border-color: rgba(221, 221, 221, 0);
-		border-right-color: #dddddd;
+		border-right-color: #fef7da;
 		border-width: 10px;
 		margin-top: -10px;
 	}
 	&:before {
 		border-color: rgba(0, 0, 0, 0);
-		border-right-color: #ffffff;
+		border-right-color: #ddd;
 		border-width: 11px;
 		margin-top: -11px;
 	}

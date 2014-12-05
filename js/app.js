@@ -30,15 +30,6 @@ $('.fourthAccordSave').click(function() {
 	$('#panel4b').removeClass('active');
 	$('#panel4b').parent().removeClass('active');
 	$("#goTopanel4b .checked").show();
-});
-
-$('.fifthAccordSave').click(function() {
-	/* Act on the event */
-	$('#panel6b').parent().addClass('active');
-	$('#panel6b').addClass('active');
-	$('#panel5b').removeClass('active');
-	$('#panel5b').parent().removeClass('active');
-	$("#goTopanel5b .checked").show();
 	$(".hiddenObject").addClass('visible');
 });
 

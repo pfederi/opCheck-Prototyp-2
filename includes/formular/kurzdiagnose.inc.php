@@ -48,13 +48,14 @@
 				</div>
         	</div>
 			<div class="row">
-				<div class="large-7 end columns">
+				<div class="large-12 columns">
 					<label class="labelTitle">Ihre Gründe für eine Zweitmeinung</label>
 					<img data-tooltip aria-haspopup="true" class="tip-bottom" title="Bitte alle Gründe anwählen, die für Sie zutreffen." src="/images/icons/help.svg" alt="help"><br>
 					<input id="checkbox1" type="checkbox"><label for="checkbox1">Ich bin unsicher</label><br>
-					<input id="checkbox2" type="checkbox"><label for="checkbox2">Ich möchte mich umfassender informieren</label>
+					<input id="checkbox2" type="checkbox"><label for="checkbox2">Ich möchte mich umfassender informieren</label><br>
 					<label class="labelTitle">Andere Gründe</label>
-					<textarea placeholder="..."></textarea>
+					<textarea style="height: 100px; margin-bottom: 0;" placeholder="..."></textarea>
+					<p><small style="float: right; margin-bottom: 2em;">max. 500 Zeichen</small></p>
 				</div>
 			</div>
 		</form>
