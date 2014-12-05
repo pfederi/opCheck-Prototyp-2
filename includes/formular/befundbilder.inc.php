@@ -5,7 +5,7 @@
     <form>
   			<div class="row">
               <div class="large-12 columns">
-                <label>Möchten Sie die Befundbilder hochladen oder per Post schicken</label>
+                <label>Möchten Sie Ihre Diagnosedokumente hochladen oder per Post schicken?</label>
                 <input type="radio" name="bilderSenden" value="1" id="senden-ja"><label for="senden-ja">Ja, jetzt hochladen</label>
                 <input type="radio" name="bilderSenden" value="2" id="senden-nein"><label for="senden-nein">Per Post schicken</label>
               </div>
@@ -13,11 +13,11 @@
 		  	<div id="blk-1" class="tohide" style="display: none;">
 	  			<div class="row">
 	  				<div class="large-4 columns">
-	  				Röntgenbefund
+	  				Röntgenbild
 	 				<input type="file" name="pic" accept="image/*">
 	          		</div>
 	          		<div class="large-8 columns">
-	              	<label>Kommentar zum Röntgenbefund
+	              	<label>Kommentar zum Röntgenbild
 	                <textarea placeholder="..."></textarea>
 	              	</label>
 	          		</div>
