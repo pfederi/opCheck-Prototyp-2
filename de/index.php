@@ -14,7 +14,7 @@
 	<div class="row">
 		<div class="large-12 columns">
 			<img src="/images/logos/surgeon-sw.png" alt="surgeon" />
-			<button onclick="window.location.href='anmelden'">Zweitmeinung bestellen</button>
+			<button onclick="window.location.href='login'">Zweitmeinung bestellen</button>
 		</div>
 	</div>
 </section>
