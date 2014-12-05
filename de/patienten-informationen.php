@@ -4,7 +4,7 @@
 <section class="row">
 	<div class="large-12 columns large-centered">
 		<h1>Patienten-Informationen</h1>
-	</div>
+
 
 		<div class="row">
 			<div class="large-12 columns large-centered">
@@ -26,7 +26,7 @@
 				<p>...</p>
 			</div>
 		</div>
-
+	</div>
 </section>
 
 
