@@ -101,6 +101,7 @@
 						<p>Danke für das Einsenden Ihrer Daten blablabla</p>
 						<p>Das Team von opCheck wird Ihnen (…) Tagen einen Spezialisten zuweisen.</p>
 						<p>Senden Sie Ihre radiologischen Bilder und Dokumente die Sie nicht hochgeladen haben mit beiliegendem PDF an die auf dem PDF angegebene Adresse.</p>
+						<p>Ihre Daten werden nun durch das opCheck-Team geprüft und sie erhalten innert 5 Arbeitstagen eine Auswahl von geeigneten Ärzten. Wenn Sie über den Stand der Datenprüfung informiert werden wollen, können Sie sich jederzeit anmelden und unter <a href="datenpruefung">"Daten werden geprüft"</a> den Status abfragen. Sie erhalten von uns aber auf jeden Fall eine SMS wenn Sie die Spezialisten anschauen können.</p>
 					</div>
 					<div class="large-5 columns">
 						<p><strong>Ihre aktuellen Befunddaten als PDF</strong></p>
