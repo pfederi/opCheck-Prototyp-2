@@ -1,6 +1,7 @@
 <?php include("../includes/header.inc.php"); ?>
 <section class="privacy-policy hyphenate">
 	<div class="row">
+<<<<<<< Updated upstream
 		<h1>Datenschutz-Richtlinien</h1>
 			<div class="large-12 columns">
 				<div class="row" data-equalizer>
@@ -29,6 +30,36 @@
 				</a>
 			</div>
 		</div>
+=======
+	<h1>Datenschutz-Richtlinien</h1>
+		<div class="large-12 columns">
+			<div class="row" data-equalizer>
+				<div class="large-4 columns">
+					<a href="javascript:void(0)" onclick="parent.$('html, body').animate({ scrollTop: parent.$('#Grundprinzien').offset().top},'slow');">
+						<div class="panel" data-equalizer-watch>
+							<p>Unsere Grundregeln im Umgang mit Ihren Daten</p>
+							<img src="/images/icons/arrow-down.svg" alt="öffnen" />
+						</div>
+					</a>
+				</div>
+				<div class="large-4 columns">
+					<a href="javascript:void(0)" onclick="parent.$('html, body').animate({ scrollTop: parent.$('#Speicherung').offset().top},'slow');">
+						<div class="panel" data-equalizer-watch>
+							<p>Datenerhebung und Weiterverwendung</p>
+							<img src="/images/icons/arrow-down.svg" alt="öffnen" />
+						</div>
+					</a>
+				</div>
+				<div class="large-4 columns">
+					<a href="javascript:void(0)" onclick="parent.$('html, body').animate({ scrollTop: parent.$('#Datenerhebung').offset().top},'slow');">
+						<div class="panel" data-equalizer-watch>
+							<p>Wer hat Zugriff auf Ihre Daten?</p>
+							<img src="/images/icons/arrow-down.svg" alt="öffnen" />
+						</div>
+					</a>
+				</div>
+			</div>
+>>>>>>> Stashed changes
 			<div class="row" data-equalizer>
 				<div class="large-4 columns">
 					<a href="javascript:void(0)" onclick="parent.$('html, body').animate({ scrollTop: parent.$('#Zugriff').offset().top},'slow');">
@@ -38,6 +69,7 @@
 						</div>
 					</a>
 				</div>
+<<<<<<< Updated upstream
 			<div class="large-4 columns">
 				<a href="javascript:void(0)" onclick="parent.$('html, body').animate({ scrollTop: parent.$('#Datenuebermittlung').offset().top},'slow');">
 					<div class="panel" data-equalizer-watch>
@@ -46,6 +78,16 @@
 					</div>
 				</a>
 			</div>
+=======
+				<div class="large-4 columns">
+					<a href="javascript:void(0)" onclick="parent.$('html, body').animate({ scrollTop: parent.$('#Datenuebermittlung').offset().top},'slow');">
+						<div class="panel" data-equalizer-watch>
+							<p>Datensicherung und sichere Speicherung auf externen Systemen</p>
+							<img src="/images/icons/arrow-down.svg" alt="öffnen" />
+						</div>
+					</a>
+				</div>
+>>>>>>> Stashed changes
 				<div class="large-4 columns">
 					<a href="javascript:void(0)" onclick="parent.$('html, body').animate({ scrollTop: parent.$('#Sicherheit').offset().top},'slow');">
 						<div class="panel" data-equalizer-watch>
