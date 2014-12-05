@@ -62,8 +62,20 @@ $('.lastAccordSave').click(function() {
 
 
 /*logins bei erfolgreichen Dateneingabe weiterleiten & Spinner schalten*/
+$('#register').on('valid.fndtn.abide', function () {
+	var info = $('.spinner');
+	if ( info.hasClass("hidden") ){
+		info.removeClass("hidden");
+	}
+	setTimeout(function() {
+		window.location.href  = "verifizierung";
+		}, 1500);
+   	 event.preventDefault()
+  });
+
 $('#login').on('valid.fndtn.abide', function () {
 	var info = $('.spinner');
+		 console.log("login geht");
 	if ( info.hasClass("hidden") ){
 		info.removeClass("hidden");
 	}
@@ -79,7 +91,7 @@ $('#verification').on('valid.fndtn.abide', function () {
 		info.removeClass("hidden");
 	}
 	setTimeout(function() {
-		window.location.href  = "bestellen"; 
+		window.location.href  = "zweitmeinung/bestellen"; 
 		}, 2000);
     	event.preventDefault()
   });
