@@ -70,22 +70,19 @@ $('#register').on('valid.fndtn.abide', function () {
 	setTimeout(function() {
 		window.location.href  = "verifizierung";
 		}, 1500);
-   	 event.preventDefault()
   });
 
 $('#login').on('valid.fndtn.abide', function () {
 	var info = $('.spinner');
-		 console.log("login geht");
 	if ( info.hasClass("hidden") ){
 		info.removeClass("hidden");
 	}
 	setTimeout(function() {
 		window.location.href  = "verifizierung";
 		}, 1500);
-   	 event.preventDefault()
   });
 
-$('#verification').on('valid.fndtn.abide', function () {
+$('#verification').on('valid.fndtn.abide', function (event) {
 	var info = $('.spinner');
 	if ( info.hasClass("hidden") ){
 		info.removeClass("hidden");
@@ -93,7 +90,9 @@ $('#verification').on('valid.fndtn.abide', function () {
 	setTimeout(function() {
 		window.location.href  = "zweitmeinung/bestellen"; 
 		}, 2000);
-    	event.preventDefault()
+		
+		event.preventDefault();
+		event.stopPropagation();
   });
 
 

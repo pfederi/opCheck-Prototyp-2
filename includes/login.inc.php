@@ -1,4 +1,4 @@
-<form id="register" action="" method="" accept-charset="utf-8" data-abide>
+<form id="login" action="" method="" accept-charset="utf-8" data-abide>
 	<div class="email-field">
 		<div class="row">
 			<div class="large-12 columns">
