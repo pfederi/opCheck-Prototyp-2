@@ -18,31 +18,27 @@
 		</div>
 		<div class="row" data-equalizer>
 			<div class="large-4 columns">
-				<a href="javascript:void(0)" onclick="parent.$('html, body').animate({ scrollTop: parent.$('#Grundprinzien').offset().top},'slow');">
+				
 					<div class="panel" data-equalizer-watch>
 					<p><strong>Was kostet die Zweitmeinung?</strong></p>
 					<p>opCheck erhebt eine Schutzgebühr von CHF 50. Die Kosten für die Zweitmeinung werden in der Regel von Ihrer Krankenkasse übernommen. Bitte kontaktieren Sie diese im Zweifel vorgängig.</p>
 					<!-- <img src="/images/icons/arrow-down.svg" alt="öffnen" /> -->
 					</div>
-				</a>
+
 			</div>
 			<div class="large-4 columns">
-				<a href="javascript:void(0)" onclick="parent.$('html, body').animate({ scrollTop: parent.$('#Speicherung').offset().top},'slow');">
 					<div class="panel" data-equalizer-watch>
 						<p><strong>Wer hat Zugriff auf Ihre Daten?</strong></p>
 						<p>Ausschliesslich Mitarbeiter von opCheck sowie der Arzt, der die Zweitmeinung abgibt.</p>
 						<!-- <img src="/images/icons/arrow-down.svg" alt="öffnen" /> -->
 					</div>
-				</a>
 			</div>
 			<div class="large-4 columns">
-				<a href="javascript:void(0)" onclick="parent.$('html, body').animate({ scrollTop: parent.$('#Datenerhebung').offset().top},'slow');">
 					<div class="panel" data-equalizer-watch>
 						<p><strong>Wo werden die Daten gespeichert?</strong></p>
 						<p>opCheck betreibt seine Server ausschliesslich in Schweizer Rechenzentren.</p>
 						<!-- <img src="/images/icons/arrow-down.svg" alt="öffnen" /> -->
 					</div>
-				</a>
 			</div>
 		</div>
 		<form>

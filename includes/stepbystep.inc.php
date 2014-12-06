@@ -11,7 +11,7 @@
 			<progress max="100" 
 				<?php if ($_SERVER['REQUEST_URI'] == '/zweitmeinung/dateneingabe' or $_SERVER['REQUEST_URI'] == '/zweitmeinung/datenpruefung' or $_SERVER['REQUEST_URI'] == '/zweitmeinung/spezialistenauswahl' or $_SERVER['REQUEST_URI'] == '/zweitmeinung/gespraech' or $_SERVER['REQUEST_URI'] == '/zweitmeinung/befund') {
 						echo 'value="100"';	
-					} elseif ($_SERVER['REQUEST_URI']=='/zweitmeinung/bestellen' ) { 
+					} elseif ($_SERVER['REQUEST_URI']=='/zweitmeinung/bestellen' or $_SERVER['REQUEST_URI']=='/zweitmeinung'  ) { 
 						echo 'value="20"';
 					} else {
 						echo 'value="0"';
