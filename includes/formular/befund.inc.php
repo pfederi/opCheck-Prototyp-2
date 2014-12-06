@@ -27,14 +27,14 @@
             <input type="radio" name="dokumenteSenden" value="3" id="dokumente-nein"><label for="dokumente-nein">Nein</label>
             
             <div id="blk-1" class="tohide formInfo" style="display: none;">
-	            <p>Sie erhalten am Schluss der Eingabe ein PDF mit Ihren eingegeben Daten. Bitte senden Sie dieses mit den Dokumente an die auf dem PDF angegebene Adresse.</p>
+	            <p>Sie erhalten am Schluss der Eingabe ein PDF mit Ihren eingegeben Daten. Bitte senden Sie dieses mit den Dokumente an die auf dem PDF angegebene Adresse. (Alle eingesendeten Dokumente erhalten Sie mit der erfolgten Zweitmeinung zurück)</p>
             </div>
         </form>
             <div id="blk-2" class="tohide" style="display: none;">
 	            <form action="../includes/file-upload.php" class="dropzone" id="my-awesome-dropzone"></form>
             </div>
 		<form>
-            <label>Haben Sie radiologische Bilder oder Datenträger (MRT, Röntgen, CT) die Sie uns per Post zukommen lassen möchten?</label>
+            <label>Haben Sie radiologische Bilder oder Datenträger (MRT, Röntgen, CT) die Sie uns per Post zukommen lassen möchten? (Alle eingesendeten Bilder oder Datenträger erhalten Sie mit der erfolgten Zweitmeinung zurück)</label>
             <input type="radio" name="radiologischeBilderSenden" value="1" id="radiologische-ja"><label for="radiologische-ja">Ja</label>
             <input type="radio" name="radiologischeBilderSenden" value="2" id="radiologische-nein"><label for="radiologische-nein">Nein</label>
         </form>

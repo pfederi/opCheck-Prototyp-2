@@ -16,10 +16,10 @@
 	</div>
 	<div class="large-4 medium-6 small-6 columns">
 		<p><strong>Weitere Informationen</strong><br>
-			<a href="faq">FAQ</a><br>
-			<a href="datenschutz-richtlinien">Datenschutz-Richtlinien</a><br>
-			<a href="agb">AGB</a><br>
-			<a href="impressum">Impressum</a>
+			<a href="/faq">FAQ</a><br>
+			<a href="/datenschutz-richtlinien">Datenschutz-Richtlinien</a><br>
+			<a href="/agb">AGB</a><br>
+			<a href="/impressum">Impressum</a>
 		</p>
 	</div>
 </footer>
