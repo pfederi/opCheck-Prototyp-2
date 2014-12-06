@@ -3,11 +3,11 @@
 <!-- Infotext -->
 <section class="row">
 	<div class="large-12 columns large-centered">
-		<h1>Ärzte-Zugang</h1>
+		<h1>AGB</h1>
 
 		<div class="row">
 			<div class="large-12 columns large-centered">
-				<p>Dieser Bereich ist kein Bestandteil des Prototyps.</p>
+				<p>Nach dem Launch von opCheck stehen hier die Allgemeinen Geschäftsbedingungen (AGB) zum Herunterladen bereit.</p>
 			</div>
 		</div>
 

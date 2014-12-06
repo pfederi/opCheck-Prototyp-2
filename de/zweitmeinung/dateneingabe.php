@@ -17,7 +17,7 @@
 					</div>
 					<div class="large-3 columns">
 						<div class="formInfo hyphenate">
-							<p>Ihre Demographischen Daten werden zur Verwaltung des Falles benötigt.</p> 
+							<p>Ihre Demographischen Daten werden zur Verwaltung des Falles und für die Korrespondenz benötigt.</p> 
 							<p>Die Telefondaten ermöglichen dem Arzt mit Ihnen Kontakt aufzunehmen.</p> 
 							<p>Die Angaben zu Geburtsdatum, Grösse und Gewicht sind wichtige Vorabinformationen für den Arzt.</p>						
 						</div>					
