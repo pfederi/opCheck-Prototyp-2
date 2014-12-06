@@ -15,7 +15,7 @@
     <script src="../js/hyphenator/hyphenator-loader-1.1.min.js"></script>
     <script src="../bower_components/jquery/dist/jquery.min.js"></script>
     <!-- FEEDBACK BUTTON -->
-    <!--
+
 <script type='text/javascript'>
 	var BugHerdConfig = {
     feedback: {
@@ -43,7 +43,7 @@
 	  s.parentNode.insertBefore(bh, s);
 	  })(document, 'script');
 	</script>
--->
+
 	<!-- END FEEDBACK BUTTON -->
   </head>
   
