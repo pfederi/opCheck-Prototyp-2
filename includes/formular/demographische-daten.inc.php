@@ -25,21 +25,21 @@
 		<div class="margin-bottom-15">
 			<div class="row">
 	        	<div class="large-5 columns">         
-	            	<label>Strasse</label>
+	            	<label>Strasse <small>(Pflichtfeld)</small></label>
 					<input type="text"/ placeholder="...">
 				</div>
 				<div class="large-2 columns end">                 
-	            	<label>Nr.</label>
+	            	<label>Nr. <small>(Pflichtfeld)</small></label>
 					<input type="text"/ placeholder="...">
 				</div>
 			</div>
 			<div class="row">
 				<div class="large-2 columns">                 
-	            	<label>PLZ</label>
+	            	<label>PLZ <small>(Pflichtfeld)</small></label>
 					<input type="text"/ placeholder="...">
 				</div>
 				<div class="large-4 columns end">    
-	            	<label>Ort</label>
+	            	<label>Ort <small>(Pflichtfeld)</small></label>
 					<input type="text"/ placeholder="...">
 				</div>
 			</div> 			
@@ -63,15 +63,15 @@
 		<div class="margin-bottom-15">
 			<div class="row">
             	<div class="large-4 columns">         
-                	<label>Geburtsdatum</label>
+                	<label>Geburtsdatum <small>(Pflichtfeld)</small></label>
 					<input type="text"/placeholder="tt-mm-yyyy">
             	</div>
 				<div class="large-4 columns">                 
-                	<label>Grösse</label>
+                	<label>Grösse <small>(Pflichtfeld)</small></label>
 					<input type="text"/placeholder="0.00 m">
 				</div>
 				<div class="large-4 columns">    
-             	 	<label>Gewicht</label>
+             	 	<label>Gewicht <small>(Pflichtfeld)</small></label>
 			 	 	<input type="text"/ placeholder="...">
 				</div>
             </div> 			

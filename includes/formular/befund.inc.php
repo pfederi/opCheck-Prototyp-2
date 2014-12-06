@@ -12,7 +12,7 @@
             <textarea style="margin-bottom: 0; height: 100px;" placeholder="..."></textarea>
             <p><small style="float: right">max. 500 Zeichen</small></p>
 
-			<label class="labelTitle">Welche Medikamente nehmen Sie zur Zeit?</label>
+			<label class="labelTitle">Welche Medikamente nehmen Sie zur Zeit? <small>(Pflichtfeld)</small></label>
 			<img data-tooltip aria-haspopup="true" class="tip-bottom" title="Wichtige Information für den Zweitmeinungsarzt." src="/images/icons/help.svg" alt="help" />
             <textarea style="margin-bottom: 0; height: 100px;" placeholder="..."></textarea>
             <p><small style="float: right">max. 500 Zeichen</small></p>
