@@ -18,7 +18,7 @@
 					<div class="large-3 columns">
 						<div class="formInfo hyphenate">
 							<p>Ihre Demographischen Daten werden zur Verwaltung des Falles benötigt.</p> 
-							<p>Die Telefondaten dienen zur Kontaktaufnahme des Arztes mit Ihnen.</p> 
+							<p>Die Telefondaten ermöglichen dem Arzt mit Ihnen Kontakt aufzunehmen.</p> 
 							<p>Die Angaben zu Geburtsdatum, Grösse und Gewicht sind wichtige Vorabinformationen für den Arzt.</p>						
 						</div>					
 					</div>
@@ -41,7 +41,7 @@
 					<div class="large-3 columns">
 						<div class="formInfo">
 							<p>Hier ordnen Sie Ihren Fall dem richtigen Fachgebiet zu.</p> 
-							<p>Die Grundangaben helfen opCheck dabei, den richtigen Spezialisten für Ihre Zweitmeinung zu finden.<span class="right checked"><img src="../../images/icons/checked.svg" alt="Ausgefüllt Anzeige"></p>						
+							<p>Diese Basisangaben helfen opCheck dabei, den richtigen Spezialisten für Ihre Zweitmeinung zu finden.<span class="right checked"><img src="../../images/icons/checked.svg" alt="Ausgefüllt Anzeige"></p>						
 						</div>
 					</div>
 				</div>
@@ -64,7 +64,7 @@
 					<div class="large-3 columns">
 						<div class="formInfo">
 							<p>Alle Angaben zum Befund helfen Ihrem Zweitmeinungsarzt dabei, Ihren Fall besser einzuordnen.</p>
-							<p>Besonders die Angaben zu allenfalls bestehenden Nebendiagnosen sowie zu Ihrer Krankengeschichte sind wichtig, da sie einen entscheidenden Einfluss auf die für sie richtige Massnahme haben können.</p>
+							<p>Besonders die Angaben zu Vorerkrankungen sind wichtig, da sie einen entscheidenden Einfluss auf die für sie richtige Massnahme haben können.</p>
 							<p>Denken Sie auch daran, alle aktuell eingenommenen Medikamente anzugeben sowie allenfalls aktuelle Beschwerden zu listen.	</p>						
 						</div>
 					</div>
@@ -98,10 +98,11 @@
 				<div class="row margin-bottom-20">
 					<div class="large-7 columns">
 						<!--5 Eingabe abgeschlossen -->
-						<p>Danke für das Einsenden Ihrer Daten blablabla</p>
-						<p>Das Team von opCheck wird Ihnen (…) Tagen einen Spezialisten zuweisen.</p>
-						<p>Senden Sie Ihre radiologischen Bilder und Dokumente die Sie nicht hochgeladen haben mit beiliegendem PDF an die auf dem PDF angegebene Adresse.</p>
-						<p>Ihre Daten werden nun durch das opCheck-Team geprüft und sie erhalten innert 5 Arbeitstagen eine Auswahl von geeigneten Ärzten. Wenn Sie über den Stand der Datenprüfung informiert werden wollen, können Sie sich jederzeit anmelden und unter <a href="datenpruefung">"Daten werden geprüft"</a> den Status abfragen. Sie erhalten von uns aber auf jeden Fall eine SMS wenn Sie die Spezialisten anschauen können.</p>
+						<p>Besten Dank für das Einsenden Ihrer Daten.</p>
+						<p>Das Team von opCheck wird Ihnen innert fünf Arbeitstagen einen Spezialisten zuweisen oder Sie bei Fragen direkt kontaktieren.</p>
+						<p>Senden Sie Ihre radiologischen Bilder und Dokumente, die Sie nicht hochgeladen haben mit beiliegendem PDF zu opCheck. Die Adresse und Ihre Daten sind bereits abgefüllt.</p>
+						<p>Ihre Daten werden nun durch das opCheck-Team geprüft.</p>
+						<p>Wenn Sie über den Stand der Datenprüfung informiert werden wollen, können Sie sich jederzeit anmelden und unter <a href="datenpruefung">"Daten werden geprüft"</a> den Status abfragen. Sie erhalten von uns ein SMS, wenn Ihre Arztauswahl auf der Plattform bereitsteht.</p>
 					</div>
 					<div class="large-5 columns">
 						<p><strong>Ihre aktuellen Befunddaten als PDF</strong></p>

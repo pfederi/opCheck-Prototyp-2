@@ -13,11 +13,12 @@
             <p><small style="float: right">max. 500 Zeichen</small></p>
 
 			<label class="labelTitle">Welche Medikamente nehmen Sie zur Zeit?</label>
+			<img data-tooltip aria-haspopup="true" class="tip-bottom" title="Wichtige Information für den Zweitmeinungsarzt." src="/images/icons/help.svg" alt="help" />
             <textarea style="margin-bottom: 0; height: 100px;" placeholder="..."></textarea>
             <p><small style="float: right">max. 500 Zeichen</small></p>
 			
 			<label class="labelTitle">Haben Sie aktuelle Beschwerden?</label>
-			<img data-tooltip aria-haspopup="true" class="tip-bottom" title="Nur in direktem Zusammenhang mit der Diagnose" src="/images/icons/help.svg" alt="help" />
+			<img data-tooltip aria-haspopup="true" class="tip-bottom" title="Nur in direktem Zusammenhang mit der Diagnose." src="/images/icons/help.svg" alt="help" />
 			<textarea style="margin-bottom: 0; height: 100px;" placeholder="..."></textarea>
 			<p><small style="float: right; margin-bottom: 2em;">max. 500 Zeichen</small></p>
 			
@@ -27,14 +28,14 @@
             <input type="radio" name="dokumenteSenden" value="3" id="dokumente-nein"><label for="dokumente-nein">Nein</label>
             
             <div id="blk-1" class="tohide formInfo" style="display: none;">
-	            <p>Sie erhalten am Schluss der Eingabe ein PDF mit Ihren eingegeben Daten. Bitte senden Sie dieses mit den Dokumente an die auf dem PDF angegebene Adresse. (Alle eingesendeten Dokumente erhalten Sie mit der erfolgten Zweitmeinung zurück)</p>
+	            <p>Sie erhalten am Schluss der Eingabe ein PDF mit Ihren eingegeben Daten. Bitte senden Sie dieses zusammen mit den Dokumenten an die auf dem PDF angegebene Adresse. (Alle eingesendeten Dokumente erhalten Sie mit der erfolgten Zweitmeinung zurück.)</p>
             </div>
         </form>
             <div id="blk-2" class="tohide" style="display: none;">
 	            <form action="../includes/file-upload.php" class="dropzone" id="my-awesome-dropzone"></form>
             </div>
 		<form>
-            <label>Haben Sie radiologische Bilder oder Datenträger (MRT, Röntgen, CT) die Sie uns per Post zukommen lassen möchten? (Alle eingesendeten Bilder oder Datenträger erhalten Sie mit der erfolgten Zweitmeinung zurück)</label>
+            <label>Haben Sie radiologische Bilder oder Datenträger (z.B. MRT, Röntgen, CT) die Sie uns per Post zukommen lassen möchten?<br>(Alle eingesendeten Bilder oder Datenträger erhalten Sie mit der erfolgten Zweitmeinung zurück)</label>
             <input type="radio" name="radiologischeBilderSenden" value="1" id="radiologische-ja"><label for="radiologische-ja">Ja</label>
             <input type="radio" name="radiologischeBilderSenden" value="2" id="radiologische-nein"><label for="radiologische-nein">Nein</label>
         </form>

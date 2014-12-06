@@ -4,7 +4,7 @@
 	    	<div class="row">
             	<div class="large-4 columns">
 					<label class="labelTitle">Fachbereich</label>      
-                	<img data-tooltip aria-haspopup="true" class="tip-bottom" title="Wählen Sie zunächst das Fachgebiet." src="/images/icons/help.svg" alt="help" />
+                	<img data-tooltip aria-haspopup="true" class="tip-bottom" title="Wählen Sie zunächst den Fachbereich Ihrer Diagnose aus." src="/images/icons/help.svg" alt="help" />
 	                <select>
 	                  <option value="#">...</option>
 	                  <option value="herz-gefaess">Herz/Gefässerkrankungen</option>
@@ -15,7 +15,7 @@
 				</div>
 				<div class="large-4 columns">                 
 					<label class="labelTitle">Bereich</label>
-	                <img data-tooltip aria-haspopup="true" class="tip-bottom" title="Welcher Bereich ist betroffen?" src="/images/icons/help.svg" alt="help" />
+	                <img data-tooltip aria-haspopup="true" class="tip-bottom" title="Welcher Bereich des Körpers ist betroffen?" src="/images/icons/help.svg" alt="help" />
 	                <select>
 	                  <option value="#">...</option>
 	                  <option value="herz-gefaess">Knie</option>
@@ -50,7 +50,7 @@
         	<div class="row">
 				<div class="large-12 columns">
 					<label class="labelTitle">Wie heisst der Arzt der Ihnen den ersten Befund ausgestellt hat?</label>
-					<img data-tooltip aria-haspopup="true" class="tip-bottom" title="Diese Angaben werden benötigt, damit Ihnen nicht der selbe Arzt nochmal empfohlen wird?" src="/images/icons/help.svg" alt="help" />
+					<img data-tooltip aria-haspopup="true" class="tip-bottom" title="Mit der Nennung des Namens verhindern Sie, dass Ihnen dieser Arzt irrtümlich für die Zweitmeinung vorgeschlagen wird." src="/images/icons/help.svg" alt="help" />
 					<div class="row">
 						<div class="large-8 columns end">
 							<input type="text"/ placeholder="...">
