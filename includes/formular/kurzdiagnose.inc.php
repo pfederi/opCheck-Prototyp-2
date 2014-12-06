@@ -47,6 +47,17 @@
 					<label for="op-nein">Nein</label>
 				</div>
         	</div>
+        	<div class="row">
+				<div class="large-12 columns">
+					<label class="labelTitle">Wie heisst der Arzt der Ihnen den ersten Befund ausgestellt hat?</label>
+					<img data-tooltip aria-haspopup="true" class="tip-bottom" title="Diese Angaben werden benötigt, damit Ihnen nicht der selbe Arzt nochmal empfohlen wird?" src="/images/icons/help.svg" alt="help" />
+					<div class="row">
+						<div class="large-8 columns end">
+							<input type="text"/ placeholder="...">
+						</div>
+					</div>
+				</div>
+        	</div>
 			<div class="row">
 				<div class="large-12 columns">
 					<label class="labelTitle">Ihre Gründe für eine Zweitmeinung</label>
