@@ -1,4 +1,4 @@
-<form id="login" action="" method="" accept-charset="utf-8" data-abide>
+<form data-abide="ajax" id="login" accept-charset="utf-8">
 	<div class="email-field">
 		<div class="row">
 			<div class="large-12 columns">
@@ -16,11 +16,10 @@
 				<small class="error">Wir benötigen eine gültige E-Mailadresse, um richtig identifizeren zu können.</small>				
 			</div>
 		</div>
-
 	</div>
 	<div class="row">
 		<div class="large-6 columns">
-			<button class="button expand" type="submit" id="regWeiter">Login</button>
+			<button class="button expand" type="submit" id="loginWeiter">Login</button>
 		</div>
 		<div class="large-6 columns">
 			<a href="#" class="button expand white">Abbrechen</a>

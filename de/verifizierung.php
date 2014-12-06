@@ -8,14 +8,14 @@
 		</div>		
 		<h1>Verifizierung</h1>
 		<p>Sie erhalten einen SMS-Code auf Ihr registriertes Mobiltelefon </p>
-		<form id="verification" action="" method="" accept-charset="utf-8" data-abide>
+		<form data-abide="ajax" id="verification" accept-charset="utf-8">
 			<div class="email-field">
 				<label>SMS-Code <small>(Pflichtfeld)</small></label>
 				<input type="number" required>
 				<p class="hinweis bsp"><b>Bsp.:</b> 454458</p>
 				<small class="error">Um Ihnen Zugriff auf die Plattform zu gewähren, benötigen wir eine gültige Natel-Nummer</small>
 			</div>
-			<button type="submit" id="loginWeiter">Anmelden</button>
+			<button type="submit" id="verifWeiter">Anmelden</button>
 		</form>
 	</div>
 

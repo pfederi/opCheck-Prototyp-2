@@ -1,6 +1,5 @@
-<form id="register" action="" method="" accept-charset="utf-8" data-abide>
+<form data-abide="ajax" id="register" accept-charset="utf-8">
 	<div class="email-field">
-
 		<div class="row">
 			<div class="large-12 columns">
 				<label>Ihre E-Mail Adresse <small>(Pflichtfeld)</small></label>
@@ -8,7 +7,6 @@
 				<small class="error">Wir benötigen eine gültige E-Mailadresse, um für Sie einen Fall anlegen zu können.</small>			
 			</div>
 		</div>
-
 	</div>
 	<div class="email-field">
 		<div class="row">
@@ -18,12 +16,10 @@
 				<small class="error">Wir benötigen eine gültige E-Mailadresse, um richtig identifizeren zu können.</small>					
 			</div>
 		</div>
-
-
 	</div>
 	<div class="row">
 		<div class="large-6 columns text-center">
-			<button class="button expand" type="submit" id="loginWeiter">Zweitmeinung bestellen</button>
+			<button class="button expand" type="submit" id="regWeiter">Zweitmeinung bestellen</button>
 		</div>
 		<div class="large-6 columns text-center">
 			<a href="#" class="button expand white">Abbrechen</a>

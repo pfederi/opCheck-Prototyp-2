@@ -1,4 +1,5 @@
 
+
 $('.firstAccordSave').click(function() {
 	/* Act on the event */
 	$('#panel2b').parent().addClass('active');
@@ -38,53 +39,65 @@ $('.lastAccordCancel').click(function() {
 		$(".hiddenObject").removeClass('visible');
 });
 
-$('.lastAccordSave').click(function() {
-		var daddy = $('#panel6b').parent();
-		var hidden = $('.contolsWrap.hiddenObject');
-		if (daddy.hasClass('active')){
-			$('#panel6b').parent().removeClass('active');
-			$('#panel6b').removeClass('active');
-			hidden.css('display', 'block');
-			$("#goTopanel6b .checked").show();
-		}
 
+
+
+$(document).foundation();
+// ab hier die foundation-js relevanten Scripten schreiben, die anderen über/vor dem $(document).foundation();
+
+/*logins bei erfolgreichen Dateneingabe weiterleiten & Spinner schalten*/
+
+$('#regWeiter').on("click", function(e){
+	$('#register')
+	  .on('invalid.fndtn.abide', function () {
+		e.preventDefault();
+		e.stopPropagation();
+	  })
+	  .on('valid.fndtn.abide', function () {
+			setTimeout(geheZuSeite, 1000);
+			function geheZuSeite() {
+				location.href='verifizierung';
+			}
+			var info = $('.spinner');
+			if ( info.hasClass("hidden") ){
+				info.removeClass("hidden");
+			}
+	 	});
 });
 
 
-/*logins bei erfolgreichen Dateneingabe weiterleiten & Spinner schalten*/
-$('#register').on('valid.fndtn.abide', function () {
-	var info = $('.spinner');
-	if ( info.hasClass("hidden") ){
-		info.removeClass("hidden");
-	}
-	setTimeout(function() {
-		window.location.href  = "verifizierung";
-		}, 1500);
-  });
+$('#loginWeiter').on("click", function(e){
+	$('#login')
+	  .on('invalid.fndtn.abide', function () {
+		e.preventDefault();
+		e.stopPropagation();
+	  })
+	  .on('valid.fndtn.abide', function () {
+		setTimeout(geheZuSeite, 1000);
+			function geheZuSeite() {
+				location.href='verifizierung';
+			}
+			var info = $('.spinner');
+			if ( info.hasClass("hidden") ){
+				info.removeClass("hidden");
+			}
+	 	});
+});
 
-$('#login').on('valid.fndtn.abide', function () {
-	var info = $('.spinner');
-	if ( info.hasClass("hidden") ){
-		info.removeClass("hidden");
-	}
-	setTimeout(function() {
-		window.location.href  = "verifizierung";
-		}, 1500);
-  });
-
-$('#verification').on('valid.fndtn.abide', function (event) {
-	var info = $('.spinner');
-	if ( info.hasClass("hidden") ){
-		info.removeClass("hidden");
-	}
-	setTimeout(function() {
-		window.location.href  = "zweitmeinung/bestellen"; 
-		}, 2000);
-		
-		event.preventDefault();
-		event.stopPropagation();
-  });
-
-$(document).foundation();
-
-
+$('#verifWeiter').on("click", function(e){
+	$('#verification')
+	  .on('invalid.fndtn.abide', function () {
+		e.preventDefault();
+		e.stopPropagation();
+	  })
+	  .on('valid.fndtn.abide', function () {
+		setTimeout(geheZuSeite, 1000);
+			function geheZuSeite() {
+				location.href='zweitmeinung/bestellen';
+			}
+			var info = $('.spinner');
+			if ( info.hasClass("hidden") ){
+				info.removeClass("hidden");
+			}
+	 	});
+});
