@@ -1988,10 +1988,10 @@
 
       if (settings.use_tallest) {
         var max = Math.max.apply(null, heights);
-        vals.css('height', max);
+        vals.css('min-height', max);
       } else {
         var min = Math.min.apply(null, heights);
-        vals.css('height', min);
+        vals.css('min-height', min);
       }
       settings.after_height_change();
       equalizer.trigger('after-height-change').trigger('after-height-change.fndtn.equalizer');

@@ -11,14 +11,15 @@
 	border: 1px solid #111;
 	background: #333;
 	color: #fff;
+	display: none;
 }
 
 // END Anzeige für Prototypnummer
 
 // START Layoutelemente
-body
+#divLayout
 {
-	margin-top: 70px;
+	padding-top: 100px;
 }
 
 // Fixed Header
@@ -30,6 +31,7 @@ body
 	z-index: 50;
 	margin: 0 auto;
 	width: 100%;
+	height: 52px;
  }
  
  .sticky
@@ -43,9 +45,10 @@ body
  
  .mitteilung {
 	 height: 176px;
-	 background: #ddd;
-	 margin: 0 0 1em 0;
-	 padding: 1em 1em 0.750em 3em;
+	 background: #fef7da;
+	 margin: 0 0 1em -2em;
+	 width: auto;
+	 padding: 1em 3em 0.750em 3em;
 	 
 	 p {
 		 position: relative;
@@ -66,13 +69,13 @@ body
 	
 	&:after {
 		border-color: rgba(221, 221, 221, 0);
-		border-right-color: #dddddd;
+		border-right-color: #fef7da;
 		border-width: 10px;
 		margin-top: -10px;
 	}
 	&:before {
 		border-color: rgba(0, 0, 0, 0);
-		border-right-color: #ffffff;
+		border-right-color: #ddd;
 		border-width: 11px;
 		margin-top: -11px;
 	}
@@ -143,6 +146,19 @@ h3
 	text-align: center;
 }
 
+large {
+	font-size: 1.4em;
+
+}
+
+.mehr {
+	position: absolute;
+	right: 24px;
+	bottom: 24px;
+	font-size: 1rem!important;
+	text-decoration: underline;
+}
+
 //Hyphenator Klassen
 .hyphenate {
 	text-align: left;
@@ -185,6 +201,7 @@ h3
 			
 			span {
 				font-size: 1rem;
+				line-height: 1rem;
 			}
 		}
 	}
@@ -341,6 +358,11 @@ h3
 					
 					&:first-child {
 						border-right: 1px solid #ddd;
+						background:$primary-color;
+						
+						a {
+							color: #fff;
+						}
 					}
 					&:last-child
 					{
@@ -354,7 +376,6 @@ h3
 						font-size: 0.750rem;
 						text-transform: none;
 						padding: 0.3753em;
-						
 					}
 				}
 			}
@@ -445,10 +466,20 @@ progress[value]::-webkit-progress-bar {
 //START Form Elemente
 	
 // -dj - forminfo ist für die Informationseinblendung auf der Seite, in jedem Bereich des Formulars (im Akkordeon)
+label
+{
+	cursor: default;
+}
+
 .formInfo {
+	background: #fef7da;
+	border: 1px solid #ddd;
+	margin: 0 0 1em 0;
+	
 	p {
 		font-size: .875em;
 		line-height: 1.2em;
+		padding: .750em .750em 0;
 	}
 }
 .button.expand.white {
@@ -458,20 +489,22 @@ progress[value]::-webkit-progress-bar {
 }
 
 //Tooltip
-.tip-top {
+
+
+
+.tooltip{
+position: absolute;
+} 
+
+.tip-bottom {
 	float: left;
-	margin: -0.250em 0 0 0;
-	
-	img {
-		width: 24px;
-		padding: 0 0 0 0.5em;
-	}
+	width: 18px;
 }
 
-.columns {
-	.labelTitle {
-		float: left;
-	}
+
+.labelTitle {
+	float: left;
+	padding-right: .500em;
 }
 
 .hidden { display: none !important; }
@@ -494,6 +527,7 @@ progress[value]::-webkit-progress-bar {
  	height: 20px;
  	display: none;
  }
+
 
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {

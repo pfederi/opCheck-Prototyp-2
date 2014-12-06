@@ -1,4 +1,4 @@
-<div class="large-3 medium-3 small-1 columns stepbystep">
+<div class="large-3 medium-3 small-1 columns stepbystep" data-equalizer-watch>
 	<ul id="lstZweitmeinung">
 		<li><img src="/images/logos/surgeon-sw.png" alt="Surgeon" />Ihre Fallnummer<br><span>9876321-1</span>
 			<ul>
@@ -11,7 +11,7 @@
 			<progress max="100" 
 				<?php if ($_SERVER['REQUEST_URI'] == '/zweitmeinung/dateneingabe' or $_SERVER['REQUEST_URI'] == '/zweitmeinung/datenpruefung' or $_SERVER['REQUEST_URI'] == '/zweitmeinung/spezialistenauswahl' or $_SERVER['REQUEST_URI'] == '/zweitmeinung/gespraech' or $_SERVER['REQUEST_URI'] == '/zweitmeinung/befund') {
 						echo 'value="100"';	
-					} elseif ($_SERVER['REQUEST_URI']=='/zweitmeinung/bestellen' ) { 
+					} elseif ($_SERVER['REQUEST_URI']=='/zweitmeinung/bestellen' or $_SERVER['REQUEST_URI']=='/zweitmeinung'  ) { 
 						echo 'value="20"';
 					} else {
 						echo 'value="0"';
