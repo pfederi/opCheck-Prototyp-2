@@ -105,6 +105,8 @@
 					</div>
 					<div class="large-5 columns">
 						<p><strong>Ihre aktuellen Befunddaten als PDF</strong></p>
+						<img style="border: 1px solid #ddd" src="/documents/vorschau.png" alt="Vorschau" />
+						<a href="/documents/opCheck-Ihre-Daten.pdf" target="_blank">PDF herunterladen</a>
 					</div>
 				</div>	
 		    </div>			

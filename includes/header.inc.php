@@ -57,7 +57,15 @@
 				<a href="/" class="logo">opCheck</a>
 			</div>
 			<div class="large-8 medium-8 columns">
-				<button onclick="window.location.href='login'">Registrieren / Login</button>
+				<?php
+					$str1='<form action="/login"><button>Logout</button></form>';
+					$str2='<form action="/login"><button>Registrieren / Login</button></form>';
+				    if ($_SERVER['REQUEST_URI'] == '/zweitmeinung/bestellen' or $_SERVER['REQUEST_URI'] == '/zweitmeinung/dateneingabe' or $_SERVER['REQUEST_URI'] == '/zweitmeinung/datenpruefung' or $_SERVER['REQUEST_URI'] == '/zweitmeinung/spezialistenauswahl' or $_SERVER['REQUEST_URI'] == '/zweitmeinung/gespraech' or $_SERVER['REQUEST_URI'] == '/zweitmeinung/befund') {
+						echo $str1;
+						} else {
+						echo $str2;
+						}
+					?>
 				<ul id="lstHauptnavigation">
 					<li><a href="/ueber-uns">Über uns</a></li>
 					<li><a href="/patienten-informationen">Patienten-Informationen</a></li>
@@ -66,3 +74,4 @@
 			</div>
 		</div>
 	</header>
+	<div id="divLayout">

@@ -17,9 +17,9 @@
 // END Anzeige für Prototypnummer
 
 // START Layoutelemente
-body
+#divLayout
 {
-	padding-top: 65px;
+	padding-top: 100px;
 }
 
 // Fixed Header
@@ -31,6 +31,7 @@ body
 	z-index: 50;
 	margin: 0 auto;
 	width: 100%;
+	height: 52px;
  }
  
  .sticky
@@ -192,6 +193,7 @@ large {
 			
 			span {
 				font-size: 1rem;
+				line-height: 1rem;
 			}
 		}
 	}

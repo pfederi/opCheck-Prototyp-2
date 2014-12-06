@@ -38,14 +38,16 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/datenschutz-richtlinien.php": {
-		"fileType": 8192,
+	"\/documents\/vorschau.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/datenschutz-richtlinien.php",
-		"outputAbbreviatedPath": "No Output Path",
+		"initialSize": 72060,
+		"inputAbbreviatedPath": "\/documents\/vorschau.png",
+		"outputAbbreviatedPath": "\/documents\/vorschau.png",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/README.html": {
 		"fileType": 8192,

@@ -4,10 +4,6 @@
 <section class="row">
 	<div class="large-12 columns large-centered">
 		<h1>Patienten-Informationen</h1>
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 
 		<div class="row">
 			<div class="large-12 columns large-centered">

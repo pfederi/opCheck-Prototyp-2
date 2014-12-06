@@ -5,7 +5,7 @@
 		<div class="large-12 columns">
 			<div class="row" data-equalizer>
 				<div class="large-4 columns">
-					<a href="javascript:void(0)" onclick="parent.$('html, body').animate({ scrollTop: parent.$('#Grundprinzien').offset().top},'slow');">
+					<a href="javascript:void(0)" onclick="parent.$('html, body').animate({ scrollTop: parent.$('#Grundprinzien').offset().top -58},'slow');">
 						<div class="panel" data-equalizer-watch>
 							<p>Unsere Grundregeln im Umgang mit Ihren Daten</p>
 							<p><span>Datenschutzbestimmungen und Verschwiegenheits-Verpflichtungen unserer Mitarbeiter</span></p>
@@ -14,7 +14,7 @@
 					</a>
 				</div>
 				<div class="large-4 columns">
-					<a href="javascript:void(0)" onclick="parent.$('html, body').animate({ scrollTop: parent.$('#Speicherung').offset().top},'slow');">
+					<a href="javascript:void(0)" onclick="parent.$('html, body').animate({ scrollTop: parent.$('#Speicherung').offset().top -58},'slow');">
 						<div class="panel" data-equalizer-watch>
 							<p>Datenerhebung und Weiterverwendung</p>
 							<p><span>Ihre Daten werden nicht weitergegeben.</span></p>
@@ -23,7 +23,7 @@
 					</a>
 				</div>
 				<div class="large-4 columns">
-					<a href="javascript:void(0)" onclick="parent.$('html, body').animate({ scrollTop: parent.$('#Datenerhebung').offset().top},'slow');">
+					<a href="javascript:void(0)" onclick="parent.$('html, body').animate({ scrollTop: parent.$('#Datenerhebung').offset().top -58},'slow');">
 						<div class="panel" data-equalizer-watch>
 							<p>Wer hat Zugriff auf Ihre Daten?</p>
 							<p><span>Nur der behandelnde Arzt und opCheck haben Einblick.</span></p>
@@ -34,7 +34,7 @@
 			</div>
 			<div class="row" data-equalizer>
 				<div class="large-4 columns">
-					<a href="javascript:void(0)" onclick="parent.$('html, body').animate({ scrollTop: parent.$('#Zugriff').offset().top},'slow');">
+					<a href="javascript:void(0)" onclick="parent.$('html, body').animate({ scrollTop: parent.$('#Zugriff').offset().top -58},'slow');">
 						<div class="panel" data-equalizer-watch>
 							<p>Verschlüsselung und Speicherung personenbezogener Daten</p>
 							<p><span>Sichere Übermittlung zu opCheck. Nur fallbezogene Speicherung.</span></p>
@@ -43,7 +43,7 @@
 					</a>
 				</div>
 				<div class="large-4 columns">
-					<a href="javascript:void(0)" onclick="parent.$('html, body').animate({ scrollTop: parent.$('#Datenuebermittlung').offset().top},'slow');">
+					<a href="javascript:void(0)" onclick="parent.$('html, body').animate({ scrollTop: parent.$('#Datenuebermittlung').offset().top -58},'slow');">
 						<div class="panel" data-equalizer-watch>
 							<p>Datensicherung und sichere Speicherung auf externen Systemen</p>
 							<p><span>opCheck setzt auf Systeme in der Schweiz.</span></p>
@@ -52,7 +52,7 @@
 					</a>
 				</div>
 				<div class="large-4 columns">
-					<a href="javascript:void(0)" onclick="parent.$('html, body').animate({ scrollTop: parent.$('#Sicherheit').offset().top},'slow');">
+					<a href="javascript:void(0)" onclick="parent.$('html, body').animate({ scrollTop: parent.$('#Sicherheit').offset().top -58},'slow');">
 						<div class="panel" data-equalizer-watch>
 							<p>Haben Sie Fragen zum Thema Datensicherheit?</p>
 							<p><span>Kontaktieren Sie uns.</span></p>

@@ -153,7 +153,7 @@ $(window).scroll(function(){
   var sticky = $('.sticky'),
       scroll = $(window).scrollTop();
 
-  if (scroll >= 295) sticky.addClass('fixed');
+  if (scroll >= 280) sticky.addClass('fixed');
   else sticky.removeClass('fixed');
 });
 </script>

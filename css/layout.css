@@ -15892,8 +15892,8 @@ input[type=number]::-webkit-outer-spin-button {
   color: #fff;
   display: none; }
 
-body {
-  padding-top: 65px; }
+#divLayout {
+  padding-top: 100px; }
 
 .fixed {
   position: fixed;
@@ -15902,7 +15902,8 @@ body {
   left: 0;
   z-index: 50;
   margin: 0 auto;
-  width: 100%; }
+  width: 100%;
+  height: 52px; }
 
 .sticky {
   background: rgba(255, 255, 255, 0.9); }
@@ -16002,7 +16003,8 @@ large {
   font-size: 1.5em;
   line-height: 1.2em; }
   .privacy-policy .panel p span, .impressum .panel p span {
-    font-size: 1rem; }
+    font-size: 1rem;
+    line-height: 1rem; }
 
 .surgeon > div {
   position: relative;
