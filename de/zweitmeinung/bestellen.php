@@ -13,7 +13,7 @@
 		</div>
 		<div class="row">
 			<div class="large-12 columns">
-				<h2 style="margin: 0 0 .500em .500em;">Zweitmeinung bestellen</h2>
+				<h2 style="margin: 0 0 .500em 0">Zweitmeinung bestellen</h2>
 			</div>
 		</div>
 		<div class="row" data-equalizer>

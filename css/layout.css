@@ -15976,6 +15976,13 @@ h3 {
 large {
   font-size: 1.4em; }
 
+.mehr {
+  position: absolute;
+  right: 24px;
+  bottom: 24px;
+  font-size: 1rem !important;
+  text-decoration: underline; }
+
 .hyphenate {
   text-align: left;
   -webkit-hyphens: auto;

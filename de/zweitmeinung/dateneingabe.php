@@ -3,7 +3,7 @@
 <div class="row margin-bottom-40" data-equalizer>
 	<?php include("../../includes/stepbystep.inc.php"); ?>
 	<div class="large-9 columns" style="padding-left:3em;" data-equalizer-watch>
-		<h2 style="margin: 0 0 .500em;">Zweitmeinung bestellen</h2>
+		<h2 style="margin: 0 0 .500em;">Daten eingeben</h2>
 		<p>Bitte füllen Sie die untenstehenden Formulare vollständig aus.</p>
 		<p>Lassen Sie sich Zeit. Sie haben jederzeit die Möglichkeit die eingegebenen Daten zu speichern. Sie können dann die Eingabe zu einem späteren Zeitpunkt wieder aufnehmen und komplettieren.</p>
 		<dl class="accordion" data-accordion="">

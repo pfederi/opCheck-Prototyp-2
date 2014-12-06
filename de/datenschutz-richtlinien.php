@@ -9,7 +9,7 @@
 						<div class="panel" data-equalizer-watch>
 							<p>Unsere Grundregeln im Umgang mit Ihren Daten</p>
 							<p><span>Datenschutzbestimmungen und Verschwiegenheits-Verpflichtungen unserer Mitarbeiter</span></p>
-							<img src="/images/icons/arrow-down.svg" alt="öffnen" />
+							<p class="mehr">Weitere Informationen</p>
 						</div>
 					</a>
 				</div>
@@ -18,7 +18,7 @@
 						<div class="panel" data-equalizer-watch>
 							<p>Datenerhebung und Weiterverwendung</p>
 							<p><span>Ihre Daten werden nicht weitergegeben.</span></p>
-							<img src="/images/icons/arrow-down.svg" alt="öffnen" />
+							<p class="mehr">Weitere Informationen</p>
 						</div>
 					</a>
 				</div>
@@ -27,7 +27,7 @@
 						<div class="panel" data-equalizer-watch>
 							<p>Wer hat Zugriff auf Ihre Daten?</p>
 							<p><span>Nur der behandelnde Arzt und opCheck haben Einblick.</span></p>
-							<img src="/images/icons/arrow-down.svg" alt="öffnen" />
+							<p class="mehr">Weitere Informationen</p>
 						</div>
 					</a>
 				</div>
@@ -38,7 +38,7 @@
 						<div class="panel" data-equalizer-watch>
 							<p>Verschlüsselung und Speicherung personenbezogener Daten</p>
 							<p><span>Sichere Übermittlung zu opCheck. Nur fallbezogene Speicherung.</span></p>
-							<img src="/images/icons/arrow-down.svg" alt="öffnen" />
+							<p class="mehr">Weitere Informationen</p>
 						</div>
 					</a>
 				</div>
@@ -47,7 +47,7 @@
 						<div class="panel" data-equalizer-watch>
 							<p>Datensicherung und sichere Speicherung auf externen Systemen</p>
 							<p><span>opCheck setzt auf Systeme in der Schweiz.</span></p>
-							<img src="/images/icons/arrow-down.svg" alt="öffnen" />
+							<p class="mehr">Weitere Informationen</p>
 						</div>
 					</a>
 				</div>
@@ -56,7 +56,7 @@
 						<div class="panel" data-equalizer-watch>
 							<p>Haben Sie Fragen zum Thema Datensicherheit?</p>
 							<p><span>Kontaktieren Sie uns.</span></p>
-							<img src="/images/icons/arrow-down.svg" alt="öffnen" />
+							<p class="mehr">Weitere Informationen</p>
 						</div>
 					</a>
 				</div>
