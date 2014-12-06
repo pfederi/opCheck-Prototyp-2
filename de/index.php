@@ -3,8 +3,8 @@
 <!-- Infotext -->
 <section class="row surgeon">
 	<div class="large-12 columns large-centered">
-		<h1>Unsicher über Ihren ersten Befund?</h1>
-		<h2>opCheck hilft Ihnen bei der Suche nach einem Zweitmeinungsarzt</h2>
+		<h1>Ihr Arzt rät zu einer Operation.<br>Sie sind unsicher?</h1>
+		<h2>opCheck hilft Ihnen bei der Suche nach einem Zweitmeinungsarzt.</h2>
 	</div>
 </section>
 <hr>
@@ -30,13 +30,13 @@
 		</div>
 		<div class="row">
 			<div class="large-4 columns">
-				<img src="/images/icons/check.svg" alt="check"><p>Neutrale und individuelle Betrachung Ihres Falles</p>
+				<img src="/images/icons/check.svg" alt="check"><p>Neutrale und individuelle Beurteilung Ihrer Diagnose und OP-Empfehlung</p>
 			</div>
 			<div class="large-4 columns">
 				<img src="/images/icons/check.svg" alt="check"><p>Beratung durch unabhängige und anerkannte Fachärzte mit FMH-Ausweis</p>
 			</div>
 			<div class="large-4 columns">
-				<img src="/images/icons/check.svg" alt="check"><p>Keine schriftliche Beurteilung - Sie sprechen direkt mit dem Arzt</p>
+				<img src="/images/icons/check.svg" alt="check"><p>Keine schriftliche Beurteilung - Sie sprechen direkt mit dem Facharzt</p>
 			</div>
 		</div>
 		<div class="row">
