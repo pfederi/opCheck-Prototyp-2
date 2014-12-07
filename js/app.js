@@ -1,4 +1,3 @@
-
 $('.firstAccordSave').click(function() {
 	$('#demograph')
 	  .on('invalid.fndtn.abide', function (e) {
@@ -91,16 +90,36 @@ $('.fourthAccordSave').click(function() {
 	 	});
 });
 
-/*wenn mit den AGB's nicht einverstanden, dann kann nicht weitergefahren werden*/
+/*wenn mit den AGB's & Verrechnung mit CC nicht einverstanden, dann kann nicht weitergefahren werden*/
 $('#abschluss-nein').click(function(){
     	$('.fourthAccordSave').prop('disabled', true);
 });
 
-/*wenn mit den AGB's einverstanden, dann kan weitergefahren werden*/
+/*wenn mit den AGB's & Verrechnung mit CC einverstanden, dann kan weitergefahren werden*/
 $('#abschluss-ja').click(function(){
 		$('.fourthAccordSave').prop('disabled', false);  	
 });
 
+
+/*$(".delFile").hide();*/
+
+/*wenn mit den AGB's am Anfang nicht einverstanden, dann kann nicht weitergefahren werden*/
+$('#agb-nein').click(function(){
+    	$('#agbWeiter').prop('disabled', true);
+    	$(".delFile").removeClass('hidden');
+    	$(".delete").removeClass('hidden');
+});
+
+$(".delete").click(function(){
+	location.href='http://www.opcheck.ch/';
+});
+
+/*wenn mit den AGB's am Anfang einverstanden, dann kan weitergefahren werden*/
+$('#agb-ja').click(function(){
+		$('#agbWeiter').prop('disabled', false);
+		$(".delFile").addClass('hidden');
+		$(".delete").addClass('hidden'); 	
+});
 
 
 

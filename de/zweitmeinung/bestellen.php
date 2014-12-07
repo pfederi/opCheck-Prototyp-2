@@ -44,17 +44,26 @@
 		<form data-abide="ajax" id="agb">
 			<div class="row" style="margin-top: 1em;">
 				<div class="large-12 columns">
+					
+					<div data-alert class="alert-box alert radius delFile hidden">
+					  Wollen Sie wirklich ihren Fall sofort löschen?.
+					  <a href="#" class="close">&times;</a>
+					</div>
 
-						<input type="radio" name="bilderSenden" value="1" id="dateneingeben-ja" required>
-						<label>Ja, ich bin mit den <a href="/datenschutz-richtlinien">Datenschutz-Richtlinien</a> und den <a ref="agb">AGBs</a> einverstanden und möchte mit der Eingabe meiner Daten beginnen.</label><br>
-		                <input type="radio" name="bilderSenden" value="2" id="dateneingeben-nein" required>
-		                <label>Ich bin nicht einverstanden und möchte meinen Fall sofort löschen.</label>
+						<input type="radio" name="agb" value="1" id="agb-ja" required>
+						<label for="agb-ja">Ja, ich bin mit den <a href="/datenschutz-richtlinien">Datenschutz-Richtlinien</a> und den <a ref="agb">AGBs</a> einverstanden und möchte mit der Eingabe meiner Daten beginnen.</label><br>
+		                <input type="radio" name="agb" value="2" id="agb-nein" required>
+		                <label for="agb-nein">Ich bin nicht einverstanden und möchte meinen Fall sofort löschen.</label>
 
 				</div>
 			</div>
 			<div class="row" style="margin-top: 1em;">
 				<div class="large-4 columns">
 					<button class="button expand" type="submit" id="agbWeiter">Speichern & weiter…</button>
+					<!-- <a href="/zweitmeinung/dateneingabe" class="button">Speichern & weiter…</a> -->
+				</div>
+				<div class="large-4 columns end delete hidden">
+					<button class="button expand alert" type="submit" id="agbWeiter">Fall löschen</button>
 					<!-- <a href="/zweitmeinung/dateneingabe" class="button">Speichern & weiter…</a> -->
 				</div>
 			</div>
