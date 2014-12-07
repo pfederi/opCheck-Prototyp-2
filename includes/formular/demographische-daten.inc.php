@@ -64,7 +64,7 @@
 			<div class="row">
             	<div class="large-4 columns">         
                 	<label>Geburtsdatum <small>(Pflichtfeld)</small></label>
-					<input type="number" placeholder="tt-mm-yyyy" required />
+					<input type="text" placeholder="tt-mm-yyyy" required />
             	</div>
 				<div class="large-4 columns">                 
                 	<label>Grösse <small>(Pflichtfeld)</small></label>
