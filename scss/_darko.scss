@@ -26,8 +26,10 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 
-.hinweis.bsp { 
-	margin-top: 5px;
-	color: #222;
-	font-size: .875em; 
+.hinweis {
+		&.bsp { 
+		margin-top: -10px;
+		color: #222;
+		font-size: .875em; 
+	}
 }

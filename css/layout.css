@@ -23430,9 +23430,9 @@ input[type=number]::-webkit-outer-spin-button {
     background: transparent url("../images/design/vertical_divider.gif") 50% 50% no-repeat;
   }
 }
-/* line 29, ../scss/_darko.scss */
+/* line 30, ../scss/_darko.scss */
 .hinweis.bsp {
-  margin-top: 5px;
+  margin-top: -10px;
   color: #222;
   font-size: .875em;
 }

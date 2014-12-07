@@ -11,9 +11,9 @@
 	<div class="email-field">
 		<div class="row">
 			<div class="large-12 columns">
-				<label>Ihre Mobile Telefonnummer <small>(Pflichtfeld)</small></label>
+				<label>Ihre Mobiltelefonnummer <small>(Pflichtfeld)</small></label>
 				<input type="tel" required placeholder="079 123 45 67">
-				<small class="error">Wir benötigen eine gültige E-Mailadresse, um richtig identifizeren zu können.</small>					
+				<small class="error">Wir benötigen eine gültige Mobiltelefonnummer, um Sie richtig identifizeren zu können.</small>					
 			</div>
 		</div>
 	</div>

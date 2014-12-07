@@ -11,7 +11,7 @@
 	<div class="email-field">
 		<div class="row">
 			<div class="large-12 columns">
-				<label>Ihre E-Mail Adresse <small>(Pflichtfeld)</small></label>
+				<label>Ihre E-Mailadresse <small>(Pflichtfeld)</small></label>
 				<input type="email" required placeholder="mail@anbieter.ch">
 				<small class="error">Wir benötigen Ihre bei uns hinterlegte E-Mailadresse.</small>				
 			</div>
