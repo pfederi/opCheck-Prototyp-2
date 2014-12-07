@@ -91,21 +91,14 @@ $('.fourthAccordSave').click(function() {
 	 	});
 });
 
+/*wenn mit den AGB's nicht einverstanden, dann kann nicht weitergefahren werden*/
+$('#abschluss-nein').click(function(){
+    	$('.fourthAccordSave').prop('disabled', true);
+});
 
-
-/*$('.fourthAccordSave').click(function() {
-	/* Act on the event */
-/*	$('#panel5b').parent().addClass('active');
-	$('#panel5b').addClass('active');
-	$('#panel4b').removeClass('active');
-	$('#panel4b').parent().removeClass('active');
-	$("#goTopanel4b .checked").show();
-	$(".hiddenObject").addClass('visible');*/
-/*});*/
-
-$('.lastAccordCancel').click(function() {
-		$(".checked").hide();
-		$(".hiddenObject").removeClass('visible');
+/*wenn mit den AGB's einverstanden, dann kan weitergefahren werden*/
+$('#abschluss-ja').click(function(){
+		$('.fourthAccordSave').prop('disabled', false);  	
 });
 
 
