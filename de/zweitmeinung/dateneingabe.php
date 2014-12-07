@@ -25,7 +25,8 @@
 				</div>
 				<div class="row">
 					<div class="large-4 large-centered columns">
-						<a href="#goTopanel2b" class="button firstAccordSave">Speichern & weiter…</a>
+						<button form="demograph" class="button expand firstAccordSave" type="submit" id="demographWeiter">Speichern & weiter…</button>
+						<!-- <a href="#goTopanel2b" class="button firstAccordSave">Speichern & weiter…</a>  -->
 					</div>
 				</div>
 		    </div>
@@ -48,7 +49,8 @@
 
 				<div class="row">
 					<div class="large-4 large-centered columns">
-						<a href="#goTopanel3b" class="button secondAccordSave">Speichern & weiter…</a>
+						<button form="kurzdiag" class="button expand secondAccordSave" type="submit" id="kurzdiagWeiter">Speichern & weiter…</button>
+						<!-- <a href="#goTopanel3b" class="button secondAccordSave">Speichern & weiter…</a> -->
 					</div>
 				</div>	
 			</div>		
@@ -71,7 +73,8 @@
 				</div>
 				<div class="row">
 					<div class="large-4 large-centered columns">
-						<a href="#goTopanel4b" class="button thirdAccordSave">Speichern & weiter…</a>
+						<button form="befund" class="button expand thirdAccordSave" type="submit" id="befundWeiter">Speichern & weiter…</button>						
+						<!-- <a href="#goTopanel4b" class="button thirdAccordSave">Speichern & weiter…</a> -->
 					</div>
 				</div>				
 			</div>

@@ -41,18 +41,21 @@
 					</div>
 			</div>
 		</div>
-		<form>
+		<form data-abide="ajax" id="agb">
 			<div class="row" style="margin-top: 1em;">
 				<div class="large-12 columns">
-					<input type="radio" name="bilderSenden" value="1" id="dateneingeben-ja">
-					<label>Ja, ich bin mit den <a href="/datenschutz-richtlinien">Datenschutz-Richtlinien</a> und den <a ref="agb">AGBs</a> einverstanden und möchte mit der Eingabe meiner Daten beginnen.</label><br>
-	                <input type="radio" name="bilderSenden" value="2" id="dateneingeben-nein">
-	                <label>Ich bin nicht einverstanden und möchte meinen Fall sofort löschen.</label>
+
+						<input type="radio" name="bilderSenden" value="1" id="dateneingeben-ja" required>
+						<label>Ja, ich bin mit den <a href="/datenschutz-richtlinien">Datenschutz-Richtlinien</a> und den <a ref="agb">AGBs</a> einverstanden und möchte mit der Eingabe meiner Daten beginnen.</label><br>
+		                <input type="radio" name="bilderSenden" value="2" id="dateneingeben-nein" required>
+		                <label>Ich bin nicht einverstanden und möchte meinen Fall sofort löschen.</label>
+
 				</div>
 			</div>
 			<div class="row" style="margin-top: 1em;">
 				<div class="large-4 columns">
-					<a href="/zweitmeinung/dateneingabe" class="button">Speichern & weiter…</a>
+					<button class="button expand" type="submit" id="agbWeiter">Speichern & weiter…</button>
+					<!-- <a href="/zweitmeinung/dateneingabe" class="button">Speichern & weiter…</a> -->
 				</div>
 			</div>
 		</form>

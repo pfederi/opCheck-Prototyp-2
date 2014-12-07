@@ -18,7 +18,6 @@
 			<button type="submit" id="verifWeiter">Anmelden</button>
 		</form>
 	</div>
-
 </section>
 		
 <?php include("../includes/footer.inc.php"); ?>
