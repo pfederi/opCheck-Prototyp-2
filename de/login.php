@@ -1,10 +1,10 @@
 <?php include("../includes/header.inc.php"); ?>
 
 <section class="row margin-bottom-20 login form">
-		<div class="spinner hidden">
-			<p>Einen Augenblick bitte ...</p>
-			<img src="/images/design/spinner.gif" alt="Progress Anzeige">
-		</div>
+	<div class="spinner hidden">
+		<p>Einen Augenblick bitte ...</p>
+		<img src="/images/design/spinner.gif" alt="Progress Anzeige">
+	</div>
 <!-- 	linke Seite bestimmt für die Registration, bzw weitmeinung einholen -->	
 	<div class="large-5 columns">
 		<h1>Registrieren</h1>
