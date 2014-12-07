@@ -90,7 +90,8 @@
 				</div>
 				<div class="row">
 					<div class="large-4 large-centered columns">
-						<a href="#goTopanel5b" class="button fourthAccordSave">Absenden</a>
+						<button form="abschluss" class="button expand fourthAccordSave" type="submit" id="abschlussWeiter">Abschliessen & absenden</button>						
+						<!-- <a href="#goTopanel5b" class="button fourthAccordSave">Absenden</a> -->
 					</div>
 				</div>
 			</div>

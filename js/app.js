@@ -1,24 +1,22 @@
 
-
 $('.firstAccordSave').click(function() {
 	$('#demograph')
 	  .on('invalid.fndtn.abide', function (e) {
+		$(".firstPanel .checked").hide();
+		location.href='#goTopanel1b';
 		e.preventDefault();
 		e.stopPropagation();
 	  })
 	  .on('valid.fndtn.abide', function () {
-	/* Act on the event */
+			/* Act on event */
 			$('#panel2b').parent().addClass('active');
 			$('#panel2b').addClass('active');
 			$('#panel1b').removeClass('active');
 			$(".firstPanel .checked").show();
 			$('#panel1b').parent().removeClass('active');
 			location.href='#goTopanel2b';
-			/*console.log('firstAccordSave');*/
 	 	});
 });
-
-
 
 $('.secondAccordSave').click(function() {
 	$('#kurzdiag')
@@ -26,14 +24,14 @@ $('.secondAccordSave').click(function() {
 			$('#panel2b').parent().addClass('active');
 			$('#panel2b').addClass('active');
 			$('#panel1b').removeClass('active');
-			$(".firstPanel .checked").show();
+			$(".firstPanel .checked").hide();
 			$('#panel1b').parent().removeClass('active');
 			location.href='#goTopanel2b';
 		e.preventDefault();
 		e.stopPropagation();
 	  })
 	  .on('valid.fndtn.abide', function () {
-	/* Act on the event */
+			/* Act on event */
 			$('#panel3b').parent().addClass('active');
 			$('#panel3b').addClass('active');
 			$('#panel2b').removeClass('active');
@@ -43,8 +41,6 @@ $('.secondAccordSave').click(function() {
 	 	});
 
 });
-
-
 
 
 $('.thirdAccordSave').click(function() {
@@ -54,41 +50,58 @@ $('.thirdAccordSave').click(function() {
 			$('#panel3b').addClass('active');
 			$('#panel2b').removeClass('active');
 			$('#panel2b').parent().removeClass('active');
-			$("#goTopanel2b .checked").show();
+			$("#goTopanel2b .checked").hide();
 			location.href='#goTopanel3b';
 		e.preventDefault();
 		e.stopPropagation();
 	  })
 	  .on('valid.fndtn.abide', function () {
-	/* Act on the event */
-	/* Act on the event */
+			/* Act the event */
 			$('#panel4b').parent().addClass('active');
 			$('#panel4b').addClass('active');
 			$('#panel3b').removeClass('active');
 			$('#panel3b').parent().removeClass('active');
 			$("#goTopanel3b .checked").show();
+			location.href='#goTopanel4b';
 	 	});
+});
 
-
-
-
-	
-
+$('.fourthAccordSave').click(function() {
+	$('#abschluss')
+	  .on('invalid.fndtn.abide', function (e) {
+			$('#panel4b').parent().addClass('active');
+			$('#panel4b').addClass('active');
+			$('#panel3b').removeClass('active');
+			$('#panel3b').parent().removeClass('active');
+			$("#goTopanel3b .checked").hide();
+			location.href='#goTopanel4b';
+		e.preventDefault();
+		e.stopPropagation();
+	  })
+	  .on('valid.fndtn.abide', function () {
+			/* Act the event */
+			$('#panel5b').parent().addClass('active');
+			$('#panel5b').addClass('active');
+			$('#panel4b').removeClass('active');
+			$('#panel4b').parent().removeClass('active');
+			$("#goTopanel4b .checked").show();
+			$("#goTopanel5b .checked").show();
+			$(".hiddenObject").addClass('visible');
+			location.href='#goTopanel5b';
+	 	});
 });
 
 
 
-
-
-$('.fourthAccordSave').click(function() {
+/*$('.fourthAccordSave').click(function() {
 	/* Act on the event */
-	$('#panel5b').parent().addClass('active');
+/*	$('#panel5b').parent().addClass('active');
 	$('#panel5b').addClass('active');
 	$('#panel4b').removeClass('active');
 	$('#panel4b').parent().removeClass('active');
 	$("#goTopanel4b .checked").show();
-	$(".hiddenObject").addClass('visible');
-});
+	$(".hiddenObject").addClass('visible');*/
+/*});*/
 
 $('.lastAccordCancel').click(function() {
 		$(".checked").hide();
