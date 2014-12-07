@@ -35,9 +35,12 @@
 	            <form action="../includes/file-upload.php" class="dropzone" id="my-awesome-dropzone"></form>
             </div>
 		<form>
-            <p>Haben Sie radiologische Bilder oder Datenträger (z.B. MRT, Röntgen, CT) die Sie uns per Post zukommen lassen möchten?<br>(Alle eingesendeten Bilder oder Datenträger erhalten Sie mit der erfolgten Zweitmeinung zurück)</p>
+            <p>Haben Sie radiologische Bilder oder Datenträger (z.B. MRT, Röntgen, CT) die Sie uns per Post zukommen lassen möchten?<!-- <br>(Alle eingesendeten Bilder oder Datenträger erhalten Sie mit der erfolgten Zweitmeinung zurück) --></p>
             <input type="radio" name="radiologischeBilderSenden" value="1" id="radiologische-ja"><label for="radiologische-ja">Ja</label>
             <input type="radio" name="radiologischeBilderSenden" value="2" id="radiologische-nein"><label for="radiologische-nein">Nein</label>
+            <div id="radiolog-1" class="tohideRadio formInfo zweite" style="display: none;">
+	            <p>Sie erhalten am Schluss der Eingabe ein PDF mit Ihren eingegeben Daten. Bitte senden Sie dieses zusammen mit den Dokumenten an die auf dem PDF angegebene Adresse. (Alle eingesendeten Dokumente erhalten Sie mit der erfolgten Zweitmeinung zurück.)</p>
+            </div>
         </form>
 	</div>
 </div>
@@ -51,6 +54,10 @@ $(function() {
     $("[name=dokumenteSenden]").click(function(){
             $('.tohide').hide();
             $("#blk-"+$(this).val()).show('fast');
+    });
+    $("[name=radiologischeBilderSenden]").click(function(){
+            $('.tohideradio').hide();
+            $("#radiolog-"+$(this).val()).show('fast');
     });
  });
  </script>
