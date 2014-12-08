@@ -10,7 +10,7 @@
 		<h1>Registrieren</h1>
 		<p>Sie möchten eine Zweitmeinung bestellen. <img data-tooltip aria-haspopup="true" class="tip-bottom" style="float:none" title="Richtig, wenn Sie Ihren Fall noch nicht bei uns hinterlegt haben. Oder wenn Sie eine bereits eine Zweitmeinung durch opCheck erhalten haben aber für eine andere Operation eine zweite Meinung wünschen." src="/images/icons/help.svg" alt="help" /></p>
 		
-		<p>Bitte geben Sie zunächst Ihre E-Mailadresse und Ihre Mobiltelefonnummer ein.</p>
+		<p>Bitte geben Sie zunächst Ihre E-Mailadresse und Ihre Mobiltelefonnummer ein. <img data-tooltip aria-haspopup="true" class="tip-bottom" style="float:none" title="Wir benötigen Ihre Mobilnummer zur Identifikation. Bei opCheck eröffnen Sie kein klassisches Nutzerkonto mit Nutzername und Passwort. Für den Zugang erhalten Sie von uns einen temporären Code auf Ihr Mobiltelefon." src="/images/icons/help.svg" alt="help" /></p>
 		<?php include("../includes/reg.inc.php"); ?>
 	</div>
 
